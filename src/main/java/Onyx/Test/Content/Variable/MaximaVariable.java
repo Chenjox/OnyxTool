@@ -1,19 +1,24 @@
 package Onyx.Test.Content.Variable;
 
+import Onyx.Util.StringUtils;
 import XMLString.XMLStringNode;
 
 public class MaximaVariable implements Variable{
 
     private final Type varType;
     private final String formula;
+    private final String identifier;
 
-    public MaximaVariable(Type varType, String formula){
+    public MaximaVariable(String identifier, Type varType, String formula){
+        this.identifier = identifier;
         this.varType = varType;
         this.formula = formula;
     }
 
-    public boolean isFormulaValid(){
-        return false;
+    public boolean isFormulaNaiveValid(){
+        return ( StringUtils.CountCharsInString(formula, '(')==StringUtils.CountCharsInString(formula, ')') ) &&
+                ( StringUtils.CountCharsInString(formula, '[')==StringUtils.CountCharsInString(formula, ']') ) &&
+                ( StringUtils.CountCharsInString(formula, '{')==StringUtils.CountCharsInString(formula, '}') );
     }
 
     public String getFormula(){
@@ -22,7 +27,7 @@ public class MaximaVariable implements Variable{
 
     @Override
     public String getIdentifier() {
-        return null;
+        return identifier;
     }
 
     @Override
