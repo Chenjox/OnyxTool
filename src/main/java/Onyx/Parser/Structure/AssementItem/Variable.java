@@ -1,4 +1,4 @@
-package Onyx.Structure.AssementItem;
+package Onyx.Parser.Structure.AssementItem;
 
 import XMLString.XMLStringNode_Element;
 

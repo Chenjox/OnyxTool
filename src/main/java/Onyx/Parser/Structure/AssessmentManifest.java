@@ -1,4 +1,4 @@
-package Onyx.Structure;
+package Onyx.Parser.Structure;
 
 import XMLString.XMLStringNodeTree;
 import XMLString.XMLStringNode_Element;
@@ -41,7 +41,9 @@ public class AssessmentManifest {
      */
     public void AddMediaReference(String Reference){
         XMLStringNode_Element file = new XMLStringNode_Element( Reference );
-        XMLStringNode_Element resource = imsmanifest.getNodesFromPath( "resources\\resource" ).get( 0 ).toType( XMLStringNode_Element.class );
+        XMLStringNode_Element resource = imsmanifest.getNodesFromPath( "resources\\resource" )
+                .get( 0 )
+                .toType( XMLStringNode_Element.class );
         resource.addChildNode( file );
     }
 
@@ -52,14 +54,19 @@ public class AssessmentManifest {
     public void AddAssessmentItemDependency(String identifier){
         XMLStringNode_Element dependency = new XMLStringNode_Element( "dependency" );
         dependency.setAttribute( "identifierref", identifier );
-        imsmanifest.getNodesFromPath( "resources\\resource" ).get( 0 ).toType( XMLStringNode_Element.class ).addChildNode( dependency );
+        imsmanifest.getNodesFromPath( "resources\\resource" )
+                .get( 0 )
+                .toType( XMLStringNode_Element.class )
+                .addChildNode( dependency );
 
         XMLStringNode_Element resource = new XMLStringNode_Element( "resource" );
         resource.setAttribute( "identifier", identifier );
         resource.setAttribute( "type", "imsqti_item_xmlv2p1" );
         resource.setAttribute( "href", identifier+".xml" );
+
         XMLStringNode_Element resourcefile = new XMLStringNode_Element( "file" );
         resourcefile.setAttribute( "href",identifier+".xml" );
+
         resource.addChildNode( resourcefile );
 
         imsmanifest.getNodesFromPath( "resources" ).get( 0 ).toType( XMLStringNode_Element.class ).addChildNode( resource );

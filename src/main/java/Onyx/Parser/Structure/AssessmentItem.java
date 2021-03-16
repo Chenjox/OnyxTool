@@ -1,6 +1,6 @@
-package Onyx.Structure;
+package Onyx.Parser.Structure;
 
-import Onyx.Structure.AssementItem.Variable;
+import Onyx.Parser.Structure.AssementItem.Variable;
 import XMLString.XMLStringNodeTree;
 
 import java.util.List;
