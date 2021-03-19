@@ -2,11 +2,14 @@ package Onyx.Test.Content.Variable;
 
 import XMLString.XMLStringNode;
 
-public class IntegerRandomInt extends IntegerVariable{
+public class RandomNumber extends Number{
 
-    @Override
-    public String getIdentifier() {
-        return null;
+    private java.lang.Number upperBound;
+
+    private java.lang.Number lowerBound;
+
+    protected RandomNumber(String identifier, Type varType) {
+        super(identifier, varType);
     }
 
     @Override
@@ -21,11 +24,6 @@ public class IntegerRandomInt extends IntegerVariable{
 
     @Override
     public Type getVariableType() {
-        return null;
-    }
-
-    @Override
-    public Order getVariableOrder() {
         return null;
     }
 }

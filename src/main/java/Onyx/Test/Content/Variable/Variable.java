@@ -2,33 +2,36 @@ package Onyx.Test.Content.Variable;
 
 import XMLString.XMLStringNode;
 
-public interface Variable {
+public abstract class Variable {
 
-    String getIdentifier();
+    private final String identifier;
+
+    protected Variable(String identifier) {
+        this.identifier = identifier;
+    }
+
+    public String getIdentifier(){
+        return identifier;
+    };
+
     /**
      * returns the &lt;TemplateDeclaration&gt; tag.
      * @return the prepared Node
      */
-    XMLStringNode getTemplateDeclaration();
+    public abstract XMLStringNode getTemplateDeclaration();
 
     /**
      * returns the &lt;setTemplateValue&gt; tag.
      * @return the prepared Node
      */
-    XMLStringNode getSetTemplateValue();
+    public abstract XMLStringNode getSetTemplateValue();
 
-    Type getVariableType();
+    public abstract Type getVariableType();
 
-    Order getVariableOrder();
-
-    enum Type {
+    public enum Type {
         IMAGE,
         FLOAT,
         INTEGER,
         STRING;
-    }
-    enum Order {
-        POST,
-        PRE;
     }
 }
