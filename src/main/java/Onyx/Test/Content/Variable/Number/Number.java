@@ -1,6 +1,8 @@
-package Onyx.Test.Content.Variable;
+package Onyx.Test.Content.Variable.Number;
 
-public abstract class Number extends Variable{
+import Onyx.Test.Content.Variable.Variable;
+
+abstract class Number extends Variable {
 
     private final Type varType;
 

@@ -1,0 +1,14 @@
+= Onyx Tool
+
+This Gui Tool eases the production of Onyx Assessments, by wrapping the exported text structure in a nice api.
+
+The Onyx Tool is split into different parts
+
+== Gui
+
+The Gui `Frontend` of this tool, will only be a simple application for traversing the onyx structure
+
+== Onyx
+
+The main part of this tool. It takes care of parsing the xml structure,
+reprensenting it in a sensible API and give the means to modify it and export it to a new test.

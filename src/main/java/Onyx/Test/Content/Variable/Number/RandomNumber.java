@@ -1,6 +1,7 @@
-package Onyx.Test.Content.Variable;
+package Onyx.Test.Content.Variable.Number;
 
 import XMLString.XMLStringNode;
+import XMLString.XMLStringNode_Element;
 
 public class RandomNumber extends Number{
 
@@ -23,7 +24,7 @@ public class RandomNumber extends Number{
     }
 
     @Override
-    public Type getVariableType() {
-        return null;
+    public boolean checkIntegrity() {
+        return true;
     }
 }

@@ -28,6 +28,8 @@ public abstract class Variable {
 
     public abstract Type getVariableType();
 
+    public abstract boolean checkIntegrity();
+
     public enum Type {
         IMAGE,
         FLOAT,

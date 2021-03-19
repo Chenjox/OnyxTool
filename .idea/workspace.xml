@@ -5,16 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="888881a5-801b-4ae3-8c3c-cd95bd76cf56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Onyx/Test/Content/Variable/MaximaNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Onyx/Test/Content/Variable/Number.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Onyx/Test/Content/Variable/RandomNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Onyx/Test/Content/Variable/IntegerRandomInt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Onyx/Test/Content/Variable/IntegerVariable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Onyx/Test/Content/Variable/MaximaVariable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Onyx/Test/Content/Variable/StandardVariable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Onyx/Test/Content/Variable/IntegerRandomInt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Onyx/Test/Content/Variable/IntegerVariable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Onyx/Test/Content/Variable/MaximaVariable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Onyx/Test/Content/Variable/StandardVariable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Onyx/Test/Content/Variable/Variable$Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Onyx/Test/Content/Variable/Variable$Type.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Onyx/Test/Content/Variable/Variable$Type.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Onyx/Test/Content/Variable/Variable.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Onyx/Test/Content/Variable/Variable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Onyx/Test/Content/Item/OnyxVariableList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Onyx/Test/Content/Item/OnyxVariableList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Onyx/Test/Content/Variable/MaximaNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Onyx/Test/Content/Variable/Number/MaximaNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Onyx/Test/Content/Variable/Number.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Onyx/Test/Content/Variable/Number/Number.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Onyx/Test/Content/Variable/RandomNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Onyx/Test/Content/Variable/Number/RandomNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Onyx/Test/Content/Variable/Variable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Onyx/Test/Content/Variable/Variable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Onyx/Util/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Onyx/Util/StringUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +33,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
