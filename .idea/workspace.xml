@@ -5,19 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="888881a5-801b-4ae3-8c3c-cd95bd76cf56" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Onyx/QtiImsWrapper/Readme.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Onyx/QtiImsWrapper/jqtiExtension/Readme.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Onyx/QtiImsWrapper/jqtiExtension/customOperatorMaxima.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Onyx/tset.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Onyx/Test/Content/Variable/IntegerRandomInt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Onyx/Test/Content/Variable/IntegerVariable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Onyx/Test/Content/Variable/MaximaVariable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Onyx/Test/Content/Variable/StandardVariable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Onyx/Test/Content/Variable/Variable$Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Onyx/Test/Content/Variable/Variable$Type.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Onyx/Test/Content/Variable/Variable$Type.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Onyx/Test/Content/Variable/Variable.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Onyx/Test/Content/Variable/Variable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Onyx/Test/Content/Item/OnyxVariableList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Onyx/Test/Content/Item/OnyxVariableList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Onyx/Test/Content/Variable/MaximaNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Onyx/Test/Content/Variable/Number/MaximaNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Onyx/Test/Content/Variable/Number.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Onyx/Test/Content/Variable/Number/Number.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Onyx/Test/Content/Variable/RandomNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Onyx/Test/Content/Variable/Number/RandomNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Onyx/Test/Content/Variable/Variable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Onyx/Test/Content/Variable/Variable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/README.adoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Onyx/Test/Content/Item/OnyxItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Onyx/Test/Content/Item/OnyxVariableList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Onyx/Test/Content/OnyxContent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Onyx/Test/Content/Section/OnyxSection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Onyx/Test/Content/Variable/MaximaNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Onyx/Test/Content/Variable/Number.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Onyx/Test/Content/Variable/RandomNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Onyx/Test/Content/Variable/Variable$Type.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Onyx/Test/Content/Variable/Variable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Onyx/Test/OnyxAuthor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Onyx/Test/OnyxTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Onyx/Test/Content/Item/OnyxItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Onyx/Test/Content/Item/OnyxVariableList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Onyx/Test/Content/OnyxContent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Onyx/Test/Content/Section/OnyxSection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Onyx/Test/Content/Variable/Number/MaximaNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Onyx/Test/Content/Variable/Number/Number.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Onyx/Test/Content/Variable/Number/RandomNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Onyx/Test/Content/Variable/Variable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Onyx/Test/OnyxAuthor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Onyx/Test/OnyxTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +49,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -57,15 +73,33 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../Public/Documents/Aron/HelloWorld" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Util/JavaHelpers/JavaBuilderCreator" />
   </component>
-  <component name="RunManager" selected="Application.StringUtils">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programmieren\OwnLibs\Java\XMLStringEditor\OnyxTool\src\main\java\Onyx\QtiImsWrapper" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.tset">
     <configuration name="StringUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Onyx.Util.StringUtils" />
       <module name="OnyxTool.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Onyx.Util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Onyx.tset" />
+      <module name="OnyxTool.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Onyx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,8 +130,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringUtils" />
+        <item itemvalue="Application.tset" />
         <item itemvalue="Gradle.OnyxTool [dependencies]" />
+        <item itemvalue="Application.StringUtils" />
       </list>
     </recent_temporary>
   </component>
