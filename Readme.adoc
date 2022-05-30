@@ -30,131 +30,132 @@ Exportieren des `Templates`::
  Nach dem Abspeichern des Templates kann man es in der Übersicht aller Aufgaben exportieren. Dabei entsteht eine `.zip` Datei, welche alle Aufgaben, Bilder und Metadaten des Tests enthalten.
  Beispielsweise können dabei folgende Dateien enthalten sein
  +
- .Beispielhafter Aufbau des Archivs
- [source]
- ----
- root
- |-- media
- |   |-- test_idTestd10336d4-9d90-4d06-bfcc-58e0cf795d01_medium_317876472199831579.png
- |   |-- test_idTestd10336d4-9d90-4d06-bfcc-58e0cf795d01_medium_4928202644650916567.png
- |-- id258ce883-563a-4aa6-af58-516170971c37.xml
- |-- idf2f60ed7-c9bd-486d-b6fa-eea1ace18945_1_1.xml
- |-- idTestd10336d4-9d90-4d06-bfcc-58e0cf795d01.xml
- |-- imsmanifest.xml
- ----
- +
+.Beispielhafter Aufbau des Archivs
+[source]
+----
+root
+|-- media
+|   |-- test_idTestd10336d4-9d90-4d06-bfcc-58e0cf795d01_medium_317876472199831579.png
+|   |-- test_idTestd10336d4-9d90-4d06-bfcc-58e0cf795d01_medium_4928202644650916567.png
+|-- id258ce883-563a-4aa6-af58-516170971c37.xml
+|-- idf2f60ed7-c9bd-486d-b6fa-eea1ace18945_1_1.xml
+|-- idTestd10336d4-9d90-4d06-bfcc-58e0cf795d01.xml
+|-- imsmanifest.xml
+----
++
  Die Präsenz der `imsmanifest.xml` sollte unbedingt überprüft werden. Anhand dieser Datei werden alle anderen Dateien erst eingebunden!
 
 `Formeln.toml` und `Aufgaben.toml`::
- Diese Dateien beschreiben, wie die Templates vervielfältigt werden sollen, und mit welchen Änderungen dies erfolgen soll.
- Sie sind plaintext Dateien im https://toml.io/en/[Toml] Format.
- Die `Aufgaben.toml` besteht dabei aus
- .`Formeln.toml`
- [source,toml]
- ----
- [metadata]
- version = "0.0.1" # Opt
- author = "OnyxTool" # Opt
- description = "Dies ist ein Test!" # Opt
+Diese Dateien beschreiben, wie die Templates vervielfältigt werden sollen, und mit welchen Änderungen dies erfolgen soll.
+Sie sind plaintext Dateien im https://toml.io/en/[Toml] Format.
+Die `Aufgaben.toml` besteht dabei aus
++
+.`Formeln.toml`
+[source,toml]
+----
+[metadata]
+version = "0.0.1" # Opt
+author = "OnyxTool" # Opt
+description = "Dies ist ein Test!" # Opt
 
- [globalConfig]
- formulaFile = "formeln.toml" # Req!
- inputDir = "Input"           # Opt def=Input
- outputDir = "Output"         # Opt def=Output
- idOrdering = true            # Opt def=true
+[globalConfig]
+formulaFile = "formeln.toml" # Req!
+inputDir = "Input"           # Opt def=Input
+outputDir = "Output"         # Opt def=Output
+idOrdering = true            # Opt def=true
 
- [[assessment]]
- title = "System 1"           # Req
- copyOf = "Vorlage 1"         # Req
- # template = "Vorlage 1"     # Opt def=null
+[[assessment]]
+title = "System 1"           # Req
+copyOf = "Vorlage 1"         # Req
+# template = "Vorlage 1"     # Opt def=null
 
 
- [[assessment.image]]         # Opt
- alt = "System"               # Opt def = ""
- imgRef = "media/image1.png"  # Req
+[[assessment.image]]         # Opt
+alt = "System"               # Opt def = ""
+imgRef = "media/image1.png"  # Req
 
- [[assessment.var]]
- id = "F"
- set.random.upper = 100.0
- set.random.lower = 10.0
- set.random.places = 2
+[[assessment.var]]
+id = "F"
+set.random.upper = 100.0
+set.random.lower = 10.0
+set.random.places = 2
 
- [[assessment.var]]
- id = "L"
- set.random.upper = 10.0
- set.random.lower = 1.0
- set.random.places = 2
+[[assessment.var]]
+id = "L"
+set.random.upper = 10.0
+set.random.lower = 1.0
+set.random.places = 2
 
- [[assessment.var]]
- id = "ERG_CODE_N1"
- set.formula.id = "C1_N1"
+[[assessment.var]]
+id = "ERG_CODE_N1"
+set.formula.id = "C1_N1"
 
- [[assessment.var]]
- id = "ERG_L_N1"
- set.formula.id = "L1_N1"
- set.formula.mod.round.places = 2
+[[assessment.var]]
+id = "ERG_L_N1"
+set.formula.id = "L1_N1"
+set.formula.mod.round.places = 2
 
- [[assessment.var]]
- id = "ERG_R_N1"
- set.formula.id = "R1_N1"
- set.formula.mod.round.places = 2
+[[assessment.var]]
+id = "ERG_R_N1"
+set.formula.id = "R1_N1"
+set.formula.mod.round.places = 2
 
- [[assessment]]
- title = "System 2"            # Req
- copyOf = "Vorlage 1"
+[[assessment]]
+title = "System 2"            # Req
+copyOf = "Vorlage 1"
 
- [[assessment.pre]]
- id = "F" # Req
- set.name.to = "M"
+[[assessment.pre]]
+id = "F" # Req
+set.name.to = "M"
 
- [[assessment.image]]     # Opt
- alt = "System"           # Opt def = ""
- imgRef = "media/001.png" # Req
+[[assessment.image]]     # Opt
+alt = "System"           # Opt def = ""
+imgRef = "media/001.png" # Req
 
- [[assessment.var]]
- id = "M"
- set.random.upper = 100.0
- set.random.lower = 10.0
- set.random.places = 2
+[[assessment.var]]
+id = "M"
+set.random.upper = 100.0
+set.random.lower = 10.0
+set.random.places = 2
 
- [[assessment.var]]
- id = "L"
- set.random.upper = 10.0
- set.random.lower = 1.0
- set.random.places = 2
+[[assessment.var]]
+id = "L"
+set.random.upper = 10.0
+set.random.lower = 1.0
+set.random.places = 2
 
- [[assessment.var]]
- id = "ERG_CODE_N1"
- set.formula.id = "C1_N1"
+[[assessment.var]]
+id = "ERG_CODE_N1"
+set.formula.id = "C1_N1"
 
- [[assessment.var]]
- id = "ERG_L_N1"
- set.formula.id = "L1_N1"
- set.formula.mod.round.places = 2
- ----
- +
- .`Formeln.toml`
- [source,toml]
- ----
- [metadata]
- formulaVersion = "0.0.1"
+[[assessment.var]]
+id = "ERG_L_N1"
+set.formula.id = "L1_N1"
+set.formula.mod.round.places = 2
+----
++
+.`Formeln.toml`
+[source,toml]
+----
+[metadata]
+formulaVersion = "0.0.1"
 
- [formulaConfig]
- implicitType = "float"
+[formulaConfig]
+implicitType = "float"
 
- #Zeichnung1
+#Zeichnung1
 
- [[formula]]
- id = "C1_N1"
- formula = '1'
+[[formula]]
+id = "C1_N1"
+formula = '1'
 
- [[formula]]
- id = "L1_N1"
- formula = '0'
- ----
+[[formula]]
+id = "L1_N1"
+formula = '0'
+----
 
 Durchlaufen des Programms::
- TODO
+TODO
 
 Importieren der Fertigen Dateien in Onyx::
  Alle Dateien im `Output` Verzeichnis in ein `.zip` Archiv packen und hochladen.
