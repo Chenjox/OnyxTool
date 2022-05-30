@@ -1,0 +1,1312 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" adaptive="false" identifier="System-1-mod-1" timeDependent="false" title="System 1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p1.xsd http://www.w3.org/1998/Math/MathML http://www.w3.org/Math/XMLSchema/mathml2/mathml2.xsd">
+     <responseDeclaration baseType="float" cardinality="single" identifier="RESPONSE_1"/>
+     <responseDeclaration baseType="float" cardinality="single" identifier="RESPONSE_2"/>
+     <responseDeclaration baseType="float" cardinality="single" identifier="RESPONSE_3"/>
+     <responseDeclaration baseType="float" cardinality="single" identifier="RESPONSE_4"/>
+     <responseDeclaration baseType="float" cardinality="single" identifier="RESPONSE_5"/>
+     <responseDeclaration baseType="float" cardinality="single" identifier="RESPONSE_6"/>
+     <responseDeclaration baseType="float" cardinality="single" identifier="RESPONSE_7"/>
+     <responseDeclaration baseType="float" cardinality="single" identifier="RESPONSE_8"/>
+     <responseDeclaration baseType="float" cardinality="single" identifier="RESPONSE_9"/>
+     <responseDeclaration baseType="float" cardinality="single" identifier="RESPONSE_10"/>
+     <responseDeclaration baseType="float" cardinality="single" identifier="RESPONSE_11"/>
+     <responseDeclaration baseType="float" cardinality="single" identifier="RESPONSE_12"/>
+     <responseDeclaration baseType="float" cardinality="single" identifier="RESPONSE_13"/>
+     <responseDeclaration baseType="float" cardinality="single" identifier="RESPONSE_14"/>
+     <responseDeclaration baseType="float" cardinality="single" identifier="RESPONSE_15"/>
+     <responseDeclaration baseType="float" cardinality="single" identifier="RESPONSE_16"/>
+     <responseDeclaration baseType="float" cardinality="single" identifier="RESPONSE_17"/>
+     <responseDeclaration baseType="float" cardinality="single" identifier="RESPONSE_18"/>
+     <responseDeclaration baseType="float" cardinality="single" identifier="RESPONSE_19"/>
+     <responseDeclaration baseType="float" cardinality="single" identifier="RESPONSE_20"/>
+     <responseDeclaration baseType="float" cardinality="single" identifier="RESPONSE_21"/>
+     <responseDeclaration baseType="float" cardinality="single" identifier="RESPONSE_22"/>
+     <responseDeclaration baseType="float" cardinality="single" identifier="RESPONSE_23"/>
+     <responseDeclaration baseType="float" cardinality="single" identifier="RESPONSE_24"/>
+     <responseDeclaration baseType="float" cardinality="single" identifier="RESPONSE_25"/>
+     <responseDeclaration baseType="float" cardinality="single" identifier="RESPONSE_26"/>
+     <responseDeclaration baseType="float" cardinality="single" identifier="RESPONSE_27"/>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="SCORE_RESPONSE_1" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MINSCORE_RESPONSE_1" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MAXSCORE_RESPONSE_1" view="testConstructor">
+          <defaultValue>
+               <value>1</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="SCORE">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="SCORE_RESPONSE_2" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MINSCORE_RESPONSE_2" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MAXSCORE_RESPONSE_2" view="testConstructor">
+          <defaultValue>
+               <value>1</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="SCORE_RESPONSE_3" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MINSCORE_RESPONSE_3" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MAXSCORE_RESPONSE_3" view="testConstructor">
+          <defaultValue>
+               <value>1</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="SCORE_RESPONSE_4" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MINSCORE_RESPONSE_4" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MAXSCORE_RESPONSE_4" view="testConstructor">
+          <defaultValue>
+               <value>1</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="SCORE_RESPONSE_5" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MINSCORE_RESPONSE_5" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MAXSCORE_RESPONSE_5" view="testConstructor">
+          <defaultValue>
+               <value>1</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="SCORE_RESPONSE_6" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MINSCORE_RESPONSE_6" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MAXSCORE_RESPONSE_6" view="testConstructor">
+          <defaultValue>
+               <value>1</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="SCORE_RESPONSE_7" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MINSCORE_RESPONSE_7" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MAXSCORE_RESPONSE_7" view="testConstructor">
+          <defaultValue>
+               <value>1</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="SCORE_RESPONSE_8" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MINSCORE_RESPONSE_8" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MAXSCORE_RESPONSE_8" view="testConstructor">
+          <defaultValue>
+               <value>1</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="SCORE_RESPONSE_9" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MINSCORE_RESPONSE_9" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MAXSCORE_RESPONSE_9" view="testConstructor">
+          <defaultValue>
+               <value>1</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="SCORE_RESPONSE_10" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MINSCORE_RESPONSE_10" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MAXSCORE_RESPONSE_10" view="testConstructor">
+          <defaultValue>
+               <value>1</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="SCORE_RESPONSE_11" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MINSCORE_RESPONSE_11" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MAXSCORE_RESPONSE_11" view="testConstructor">
+          <defaultValue>
+               <value>1</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="SCORE_RESPONSE_12" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MINSCORE_RESPONSE_12" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MAXSCORE_RESPONSE_12" view="testConstructor">
+          <defaultValue>
+               <value>1</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="SCORE_RESPONSE_13" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MINSCORE_RESPONSE_13" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MAXSCORE_RESPONSE_13" view="testConstructor">
+          <defaultValue>
+               <value>1</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="SCORE_RESPONSE_14" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MINSCORE_RESPONSE_14" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MAXSCORE_RESPONSE_14" view="testConstructor">
+          <defaultValue>
+               <value>1</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="SCORE_RESPONSE_15" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MINSCORE_RESPONSE_15" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MAXSCORE_RESPONSE_15" view="testConstructor">
+          <defaultValue>
+               <value>1</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="SCORE_RESPONSE_16" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MINSCORE_RESPONSE_16" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MAXSCORE_RESPONSE_16" view="testConstructor">
+          <defaultValue>
+               <value>1</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="SCORE_RESPONSE_17" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MINSCORE_RESPONSE_17" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MAXSCORE_RESPONSE_17" view="testConstructor">
+          <defaultValue>
+               <value>1</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="SCORE_RESPONSE_18" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MINSCORE_RESPONSE_18" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MAXSCORE_RESPONSE_18" view="testConstructor">
+          <defaultValue>
+               <value>1</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="SCORE_RESPONSE_19" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MINSCORE_RESPONSE_19" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MAXSCORE_RESPONSE_19" view="testConstructor">
+          <defaultValue>
+               <value>1</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="SCORE_RESPONSE_20" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MINSCORE_RESPONSE_20" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MAXSCORE_RESPONSE_20" view="testConstructor">
+          <defaultValue>
+               <value>1</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="SCORE_RESPONSE_21" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MINSCORE_RESPONSE_21" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MAXSCORE_RESPONSE_21" view="testConstructor">
+          <defaultValue>
+               <value>1</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="SCORE_RESPONSE_22" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MINSCORE_RESPONSE_22" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MAXSCORE_RESPONSE_22" view="testConstructor">
+          <defaultValue>
+               <value>1</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="SCORE_RESPONSE_23" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MINSCORE_RESPONSE_23" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MAXSCORE_RESPONSE_23" view="testConstructor">
+          <defaultValue>
+               <value>1</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="SCORE_RESPONSE_24" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MINSCORE_RESPONSE_24" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MAXSCORE_RESPONSE_24" view="testConstructor">
+          <defaultValue>
+               <value>1</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="SCORE_RESPONSE_25" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MINSCORE_RESPONSE_25" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MAXSCORE_RESPONSE_25" view="testConstructor">
+          <defaultValue>
+               <value>1</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="SCORE_RESPONSE_26" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MINSCORE_RESPONSE_26" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MAXSCORE_RESPONSE_26" view="testConstructor">
+          <defaultValue>
+               <value>1</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="SCORE_RESPONSE_27" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MINSCORE_RESPONSE_27" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MAXSCORE_RESPONSE_27" view="testConstructor">
+          <defaultValue>
+               <value>1</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MAXSCORE">
+          <defaultValue>
+               <value>27</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MINSCORE" view="testConstructor">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <templateDeclaration baseType="integer" cardinality="single" identifier="INPUT"/>
+     <templateDeclaration baseType="integer" cardinality="single" identifier="INPUT"/>
+     <templateDeclaration baseType="integer" cardinality="single" identifier="PRNG_0"/>
+     <templateDeclaration baseType="integer" cardinality="single" identifier="PRNG_1"/>
+     <templateDeclaration baseType="float" cardinality="single" identifier="F"/>
+     <templateDeclaration baseType="float" cardinality="single" identifier="L"/>
+     <templateDeclaration baseType="float" cardinality="single" identifier="ERG_CODE_N1"/>
+     <templateDeclaration baseType="float" cardinality="single" identifier="ERG_L_N1"/>
+     <templateDeclaration baseType="float" cardinality="single" identifier="ERG_R_N1"/>
+     <templateDeclaration baseType="float" cardinality="single" identifier="ERG_CODE_N2"/>
+     <templateDeclaration baseType="float" cardinality="single" identifier="ERG_L_N2"/>
+     <templateDeclaration baseType="float" cardinality="single" identifier="ERG_R_N2"/>
+     <templateDeclaration baseType="float" cardinality="single" identifier="ERG_CODE_N3"/>
+     <templateDeclaration baseType="float" cardinality="single" identifier="ERG_L_N3"/>
+     <templateDeclaration baseType="float" cardinality="single" identifier="ERG_R_N3"/>
+     <templateDeclaration baseType="float" cardinality="single" identifier="ERG_CODE_Q1"/>
+     <templateDeclaration baseType="float" cardinality="single" identifier="ERG_L_Q1"/>
+     <templateDeclaration baseType="float" cardinality="single" identifier="ERG_R_Q1"/>
+     <templateDeclaration baseType="float" cardinality="single" identifier="ERG_CODE_Q2"/>
+     <templateDeclaration baseType="float" cardinality="single" identifier="ERG_L_Q2"/>
+     <templateDeclaration baseType="float" cardinality="single" identifier="ERG_R_Q2"/>
+     <templateDeclaration baseType="float" cardinality="single" identifier="ERG_CODE_Q3"/>
+     <templateDeclaration baseType="float" cardinality="single" identifier="ERG_L_Q3"/>
+     <templateDeclaration baseType="float" cardinality="single" identifier="ERG_R_Q3"/>
+     <templateDeclaration baseType="float" cardinality="single" identifier="ERG_CODE_M1"/>
+     <templateDeclaration baseType="float" cardinality="single" identifier="ERG_L_M1"/>
+     <templateDeclaration baseType="float" cardinality="single" identifier="ERG_R_M1"/>
+     <templateDeclaration baseType="float" cardinality="single" identifier="ERG_CODE_M2"/>
+     <templateDeclaration baseType="float" cardinality="single" identifier="ERG_L_M2"/>
+     <templateDeclaration baseType="float" cardinality="single" identifier="ERG_R_M2"/>
+     <templateDeclaration baseType="float" cardinality="single" identifier="ERG_CODE_M3"/>
+     <templateDeclaration baseType="float" cardinality="single" identifier="ERG_L_M3"/>
+     <templateDeclaration baseType="float" cardinality="single" identifier="ERG_R_M3"/>
+     <templateProcessing>
+          <setTemplateValue identifier="INPUT">
+               <baseValue baseType="integer">123</baseValue>
+          </setTemplateValue>
+          <setTemplateValue identifier="PRNG_0">
+               <customOperator definition="MAXIMA" value="block([vorher, mult, inkr, modul], vorher:$(1), mult:134775813 , inkr:1 , modul:4294967296, mod( (mult*vorher+inkr) , modul))">
+                    <variable identifier="INPUT"/>
+               </customOperator>
+          </setTemplateValue>
+          <setTemplateValue identifier="PRNG_1">
+               <customOperator definition="MAXIMA" value="block([vorher, mult, inkr, modul], vorher:$(1), mult:134775813 , inkr:1 , modul:4294967296, mod( (mult*vorher+inkr) , modul))">
+                    <variable identifier="PRNG_0"/>
+               </customOperator>
+          </setTemplateValue>
+          <setTemplateValue identifier="F">
+               <customOperator definition="MAXIMA" value="block([prng, obereGrenze, untereGrenze], prng:$(1), obereGrenze:100.0, untereGrenze:10.0 , round((untereGrenze + (obereGrenze-untereGrenze)*(truncate( prng / ( 10^(ceiling( log( prng )/log( 10 ) - 4 ) ) ) ) )/(100)))*100)/100">
+                    <variable identifier="PRNG_1"/>
+               </customOperator>
+          </setTemplateValue>
+          <setTemplateValue identifier="L">
+               <customOperator definition="MAXIMA" value="block([prng, obereGrenze, untereGrenze], prng:$(1), obereGrenze:10.0, untereGrenze:1.0 , round((untereGrenze + (obereGrenze-untereGrenze)*(truncate( prng / ( 10^(ceiling( log( prng )/log( 10 ) - 4 ) ) ) ) )/(100)))*100)/100">
+                    <variable identifier="PRNG_0"/>
+               </customOperator>
+          </setTemplateValue>
+          <setTemplateValue identifier="ERG_CODE_N1">
+               <customOperator definition="MAXIMA" value="1"/>
+          </setTemplateValue>
+          <setTemplateValue identifier="ERG_L_N1">
+               <customOperator definition="MAXIMA" value="round( (0) * 100)/100"/>
+          </setTemplateValue>
+          <setTemplateValue identifier="ERG_R_N1">
+               <customOperator definition="MAXIMA" value="round( (0) * 100)/100"/>
+          </setTemplateValue>
+          <setTemplateValue identifier="ERG_CODE_N2">
+               <customOperator definition="MAXIMA" value="1"/>
+          </setTemplateValue>
+          <setTemplateValue identifier="ERG_L_N2">
+               <customOperator definition="MAXIMA" value="round( (0) * 100)/100"/>
+          </setTemplateValue>
+          <setTemplateValue identifier="ERG_R_N2">
+               <customOperator definition="MAXIMA" value="round( (0) * 100)/100"/>
+          </setTemplateValue>
+          <setTemplateValue identifier="ERG_CODE_N3">
+               <customOperator definition="MAXIMA" value="1"/>
+          </setTemplateValue>
+          <setTemplateValue identifier="ERG_L_N3">
+               <customOperator definition="MAXIMA" value="round( (0) * 100)/100"/>
+          </setTemplateValue>
+          <setTemplateValue identifier="ERG_R_N3">
+               <customOperator definition="MAXIMA" value="round( (0) * 100)/100"/>
+          </setTemplateValue>
+          <setTemplateValue identifier="ERG_CODE_Q1">
+               <customOperator definition="MAXIMA" value="2"/>
+          </setTemplateValue>
+          <setTemplateValue identifier="ERG_L_Q1">
+               <customOperator definition="MAXIMA" value="round( ($(1)/2) * 100)/100">
+                    <variable identifier="F"/>
+               </customOperator>
+          </setTemplateValue>
+          <setTemplateValue identifier="ERG_R_Q1">
+               <customOperator definition="MAXIMA" value="round( ($(1)/2) * 100)/100">
+                    <variable identifier="F"/>
+               </customOperator>
+          </setTemplateValue>
+          <setTemplateValue identifier="ERG_CODE_Q2">
+               <customOperator definition="MAXIMA" value="2"/>
+          </setTemplateValue>
+          <setTemplateValue identifier="ERG_L_Q2">
+               <customOperator definition="MAXIMA" value="round( (-$(1)/2) * 100)/100">
+                    <variable identifier="F"/>
+               </customOperator>
+          </setTemplateValue>
+          <setTemplateValue identifier="ERG_R_Q2">
+               <customOperator definition="MAXIMA" value="round( (-$(1)/2) * 100)/100">
+                    <variable identifier="F"/>
+               </customOperator>
+          </setTemplateValue>
+          <setTemplateValue identifier="ERG_CODE_Q3">
+               <customOperator definition="MAXIMA" value="2"/>
+          </setTemplateValue>
+          <setTemplateValue identifier="ERG_L_Q3">
+               <customOperator definition="MAXIMA" value="round( (-$(1)/2) * 100)/100">
+                    <variable identifier="F"/>
+               </customOperator>
+          </setTemplateValue>
+          <setTemplateValue identifier="ERG_R_Q3">
+               <customOperator definition="MAXIMA" value="round( (-$(1)/2) * 100)/100">
+                    <variable identifier="F"/>
+               </customOperator>
+          </setTemplateValue>
+          <setTemplateValue identifier="ERG_CODE_M1">
+               <customOperator definition="MAXIMA" value="4"/>
+          </setTemplateValue>
+          <setTemplateValue identifier="ERG_L_M1">
+               <customOperator definition="MAXIMA" value="round( (0) * 100)/100"/>
+          </setTemplateValue>
+          <setTemplateValue identifier="ERG_R_M1">
+               <customOperator definition="MAXIMA" value="round( ($(1)*$(2)/4) * 100)/100">
+                    <variable identifier="F"/>
+                    <variable identifier="L"/>
+               </customOperator>
+          </setTemplateValue>
+          <setTemplateValue identifier="ERG_CODE_M2">
+               <customOperator definition="MAXIMA" value="6"/>
+          </setTemplateValue>
+          <setTemplateValue identifier="ERG_L_M2">
+               <customOperator definition="MAXIMA" value="round( ($(1)*$(2)/4) * 100)/100">
+                    <variable identifier="F"/>
+                    <variable identifier="L"/>
+               </customOperator>
+          </setTemplateValue>
+          <setTemplateValue identifier="ERG_R_M2">
+               <customOperator definition="MAXIMA" value="round( ($(1)*$(2)/8) * 100)/100">
+                    <variable identifier="F"/>
+                    <variable identifier="L"/>
+               </customOperator>
+          </setTemplateValue>
+          <setTemplateValue identifier="ERG_CODE_M3">
+               <customOperator definition="MAXIMA" value="3"/>
+          </setTemplateValue>
+          <setTemplateValue identifier="ERG_L_M3">
+               <customOperator definition="MAXIMA" value="round( ($(1)*$(2)/8) * 100)/100">
+                    <variable identifier="F"/>
+                    <variable identifier="L"/>
+               </customOperator>
+          </setTemplateValue>
+          <setTemplateValue identifier="ERG_R_M3">
+               <customOperator definition="MAXIMA" value="round( (0) * 100)/100"/>
+          </setTemplateValue>
+          <setCorrectResponse identifier="RESPONSE_1">
+               <variable identifier="ERG_CODE_N1"/>
+          </setCorrectResponse>
+          <setCorrectResponse identifier="RESPONSE_2">
+               <variable identifier="ERG_CODE_N2"/>
+          </setCorrectResponse>
+          <setCorrectResponse identifier="RESPONSE_3">
+               <variable identifier="ERG_CODE_N3"/>
+          </setCorrectResponse>
+          <setCorrectResponse identifier="RESPONSE_4">
+               <variable identifier="ERG_CODE_Q1"/>
+          </setCorrectResponse>
+          <setCorrectResponse identifier="RESPONSE_5">
+               <variable identifier="ERG_CODE_Q2"/>
+          </setCorrectResponse>
+          <setCorrectResponse identifier="RESPONSE_6">
+               <variable identifier="ERG_CODE_Q3"/>
+          </setCorrectResponse>
+          <setCorrectResponse identifier="RESPONSE_7">
+               <variable identifier="ERG_CODE_M1"/>
+          </setCorrectResponse>
+          <setCorrectResponse identifier="RESPONSE_8">
+               <variable identifier="ERG_CODE_M2"/>
+          </setCorrectResponse>
+          <setCorrectResponse identifier="RESPONSE_9">
+               <variable identifier="ERG_CODE_M3"/>
+          </setCorrectResponse>
+          <setCorrectResponse identifier="RESPONSE_10">
+               <variable identifier="ERG_L_N1"/>
+          </setCorrectResponse>
+          <setCorrectResponse identifier="RESPONSE_11">
+               <variable identifier="ERG_R_N1"/>
+          </setCorrectResponse>
+          <setCorrectResponse identifier="RESPONSE_12">
+               <variable identifier="ERG_L_N2"/>
+          </setCorrectResponse>
+          <setCorrectResponse identifier="RESPONSE_13">
+               <variable identifier="ERG_R_N2"/>
+          </setCorrectResponse>
+          <setCorrectResponse identifier="RESPONSE_14">
+               <variable identifier="ERG_L_N3"/>
+          </setCorrectResponse>
+          <setCorrectResponse identifier="RESPONSE_15">
+               <variable identifier="ERG_R_N3"/>
+          </setCorrectResponse>
+          <setCorrectResponse identifier="RESPONSE_16">
+               <variable identifier="ERG_L_Q1"/>
+          </setCorrectResponse>
+          <setCorrectResponse identifier="RESPONSE_17">
+               <variable identifier="ERG_R_Q1"/>
+          </setCorrectResponse>
+          <setCorrectResponse identifier="RESPONSE_18">
+               <variable identifier="ERG_L_Q2"/>
+          </setCorrectResponse>
+          <setCorrectResponse identifier="RESPONSE_19">
+               <variable identifier="ERG_R_Q2"/>
+          </setCorrectResponse>
+          <setCorrectResponse identifier="RESPONSE_20">
+               <variable identifier="ERG_L_Q3"/>
+          </setCorrectResponse>
+          <setCorrectResponse identifier="RESPONSE_21">
+               <variable identifier="ERG_R_Q3"/>
+          </setCorrectResponse>
+          <setCorrectResponse identifier="RESPONSE_22">
+               <variable identifier="ERG_L_M1"/>
+          </setCorrectResponse>
+          <setCorrectResponse identifier="RESPONSE_23">
+               <variable identifier="ERG_R_M1"/>
+          </setCorrectResponse>
+          <setCorrectResponse identifier="RESPONSE_24">
+               <variable identifier="ERG_L_M2"/>
+          </setCorrectResponse>
+          <setCorrectResponse identifier="RESPONSE_25">
+               <variable identifier="ERG_R_M2"/>
+          </setCorrectResponse>
+          <setCorrectResponse identifier="RESPONSE_26">
+               <variable identifier="ERG_L_M3"/>
+          </setCorrectResponse>
+          <setCorrectResponse identifier="RESPONSE_27">
+               <variable identifier="ERG_R_M3"/>
+          </setCorrectResponse>
+     </templateProcessing>
+     <itemBody>
+          <p>
+               Zur schnelleren Beurteilung der Tragfähigkeit eines Systems ist es notwendig die Belastungsform der Schnittgrößen zu bestimmen, um kritische Tragwerksteile zu identifizieren.
+               <br/>
+               Im Rahmen dieser Beurteilung wurde eine Kritische Stelle im System identifiziert deren Schnittkräfte berechnet werden müssen.
+               <br/>
+               <br/>
+               Geben Sie den Verlauf der Schnittkräfte an und berechnen Sie die Schnittkräfte an der angegeben kritischen Stelle.
+               <br/>
+               <br/>
+               Hinweis: Versuchen Sie so schnell wie möglich den Verlauf der Schnittkraft aufzuzeichen.
+               <br/>
+               Die angegebenen Bereiche entsprechen nicht unbedingt den Bereichen die zur Berechnung benötigt werden.
+               <br/>
+               Beachten Sie dass der Verlauf unabhängig vom Vorzeichen bestimmt werden soll.
+               <br/>
+               <br/>
+               Um die Eingabe zu ermöglichen, geben Sie die Schnittkraftverläufe mit folgenden Kurzbezeichnungen im unten Angegebenen Feld an.
+               <br/>
+               <img alt="CodeTabelle" height="244" src="media%2Ftest_idTestd10336d4-9d90-4d06-bfcc-58e0cf795d01_medium_12825027779503386973.png" width="600"/>
+          </p>
+          <hr/>
+          <table border="1" style="border-collapse: collapse; min-width: 150px;">
+               <tbody>
+                    <tr>
+                         <td>
+                              <img alt="System" height="200" src="media%2Fimage1.png" width="300"/>
+                         </td>
+                    </tr>
+                    <tr>
+                         <td>
+                              <p>Geben Sie die Kurzbezeichnungen der Verläufe in der Tabelle an!</p>
+                              <table border="1" style="border-collapse: collapse; min-width: 150px; margin-left: auto; margin-right: auto;">
+                                   <tbody>
+                                        <tr>
+                                             <td>-</td>
+                                             <td>Bereich 1</td>
+                                             <td>Bereich 2</td>
+                                             <td style="text-align: center;">Bereich 3</td>
+                                        </tr>
+                                        <tr>
+                                             <td>Normalkraft $$N_x$$</td>
+                                             <td style="text-align: center;">
+                                                  <textEntryInteraction class="ctest_l ctest_r" responseIdentifier="RESPONSE_1"/>
+                                             </td>
+                                             <td style="text-align: center;">
+                                                  <textEntryInteraction class="ctest_l ctest_r" responseIdentifier="RESPONSE_2"/>
+                                             </td>
+                                             <td style="text-align: center;">
+                                                  <textEntryInteraction class="ctest_l ctest_r" responseIdentifier="RESPONSE_3"/>
+                                             </td>
+                                        </tr>
+                                        <tr>
+                                             <td>Querkraft $$Q_z$$</td>
+                                             <td>
+                                                  <textEntryInteraction class="ctest_l ctest_r" responseIdentifier="RESPONSE_4"/>
+                                             </td>
+                                             <td>
+                                                  <textEntryInteraction class="ctest_l ctest_r" responseIdentifier="RESPONSE_5"/>
+                                             </td>
+                                             <td style="text-align: center;">
+                                                  <textEntryInteraction class="ctest_l ctest_r" responseIdentifier="RESPONSE_6"/>
+                                             </td>
+                                        </tr>
+                                        <tr>
+                                             <td>Momenten $$M_y$$</td>
+                                             <td>
+                                                  <textEntryInteraction class="ctest_l ctest_r" responseIdentifier="RESPONSE_7"/>
+                                             </td>
+                                             <td style="text-align: center;">
+                                                  <textEntryInteraction class="ctest_l ctest_r" responseIdentifier="RESPONSE_8"/>
+                                             </td>
+                                             <td style="text-align: center;">
+                                                  <textEntryInteraction class="ctest_l ctest_r" responseIdentifier="RESPONSE_9"/>
+                                             </td>
+                                        </tr>
+                                   </tbody>
+                              </table>
+                              <p>Berechnen Sie die Schnittkräfte für die Bereichsenden! Dabei steht $$R$$ für das rechte und $$L$$ für das linke Bereichsende!</p>
+                              <table border="1" style="border-collapse: collapse; min-width: 150px;">
+                                   <tbody>
+                                        <tr>
+                                             <td>-</td>
+                                             <td>Bereich 1</td>
+                                             <td>Bereich 2</td>
+                                             <td>Bereich 3</td>
+                                        </tr>
+                                        <tr style="text-align: center;">
+                                             <td>Normalkraft $$N_x$$</td>
+                                             <td>
+                                                  <table border="1" style="border-collapse: collapse; min-width: 150px;">
+                                                       <tbody>
+                                                            <tr>
+                                                                 <td>
+                                                                      $$N_x(x_1 = L) = $$
+                                                                      <textEntryInteraction class="ctest_l ctest_r" expectedLength="1" placeholderText="0,00" responseIdentifier="RESPONSE_10"/>
+                                                                      $$\text{kN}$$
+                                                                 </td>
+                                                                 <td>
+                                                                      $$N_x(x_1 = R) = $$
+                                                                      <textEntryInteraction class="ctest_l ctest_r" expectedLength="1" placeholderText="0,00" responseIdentifier="RESPONSE_11"/>
+                                                                      $$\text{kN}$$
+                                                                 </td>
+                                                            </tr>
+                                                       </tbody>
+                                                  </table>
+                                             </td>
+                                             <td>
+                                                  <table border="1" style="border-collapse: collapse; min-width: 150px;">
+                                                       <tbody>
+                                                            <tr>
+                                                                 <td>
+                                                                      $$N_x(x_2 = L) =$$
+                                                                      <textEntryInteraction class="ctest_l ctest_r" expectedLength="1" placeholderText="0,00" responseIdentifier="RESPONSE_12"/>
+                                                                      $$\text{kN}$$
+                                                                 </td>
+                                                                 <td>
+                                                                      $$N_x(x_2 = R) =$$
+                                                                      <textEntryInteraction class="ctest_l ctest_r" expectedLength="1" placeholderText="0,00" responseIdentifier="RESPONSE_13"/>
+                                                                      $$\text{kN}$$
+                                                                 </td>
+                                                            </tr>
+                                                       </tbody>
+                                                  </table>
+                                             </td>
+                                             <td>
+                                                  <table border="1" style="border-collapse: collapse; min-width: 150px;">
+                                                       <tbody>
+                                                            <tr>
+                                                                 <td>
+                                                                      $$N_x(x_3 = L) =$$
+                                                                      <textEntryInteraction class="ctest_l ctest_r" expectedLength="1" placeholderText="0,00" responseIdentifier="RESPONSE_14"/>
+                                                                      $$\text{kN}$$
+                                                                 </td>
+                                                                 <td>
+                                                                      $$N_x(x_3 = R) =$$
+                                                                      <textEntryInteraction class="ctest_l ctest_r" expectedLength="1" placeholderText="0,00" responseIdentifier="RESPONSE_15"/>
+                                                                      $$\text{kN}$$
+                                                                 </td>
+                                                            </tr>
+                                                       </tbody>
+                                                  </table>
+                                             </td>
+                                        </tr>
+                                        <tr style="text-align: center;">
+                                             <td>Querkraft $$Q_z$$</td>
+                                             <td>
+                                                  <table border="1" style="border-collapse: collapse; min-width: 150px;">
+                                                       <tbody>
+                                                            <tr>
+                                                                 <td>
+                                                                      $$Q_z(x_1 = L) =$$
+                                                                      <textEntryInteraction class="ctest_l ctest_r" expectedLength="1" placeholderText="0,00" responseIdentifier="RESPONSE_16"/>
+                                                                      $$\text{kN}$$
+                                                                 </td>
+                                                                 <td>
+                                                                      $$Q_z(x_1 = R) =$$
+                                                                      <textEntryInteraction class="ctest_l ctest_r" expectedLength="1" placeholderText="0,00" responseIdentifier="RESPONSE_17"/>
+                                                                      $$\text{kN}$$
+                                                                 </td>
+                                                            </tr>
+                                                       </tbody>
+                                                  </table>
+                                             </td>
+                                             <td>
+                                                  <table border="1" style="border-collapse: collapse; min-width: 150px;">
+                                                       <tbody>
+                                                            <tr>
+                                                                 <td>
+                                                                      $$Q_z(x_2 = L) =$$
+                                                                      <textEntryInteraction class="ctest_l ctest_r" expectedLength="1" placeholderText="0,00" responseIdentifier="RESPONSE_18"/>
+                                                                      $$\text{kN}$$
+                                                                 </td>
+                                                                 <td>
+                                                                      $$Q_z(x_2 = R) =$$
+                                                                      <textEntryInteraction class="ctest_l ctest_r" expectedLength="1" placeholderText="0,00" responseIdentifier="RESPONSE_19"/>
+                                                                      $$\text{kN}$$
+                                                                 </td>
+                                                            </tr>
+                                                       </tbody>
+                                                  </table>
+                                             </td>
+                                             <td>
+                                                  <table border="1" style="border-collapse: collapse; min-width: 150px;">
+                                                       <tbody>
+                                                            <tr>
+                                                                 <td>
+                                                                      $$Q_z(x_3 = L) =$$
+                                                                      <textEntryInteraction class="ctest_l ctest_r" expectedLength="1" placeholderText="0,00" responseIdentifier="RESPONSE_20"/>
+                                                                      $$\text{kN}$$
+                                                                 </td>
+                                                                 <td>
+                                                                      $$Q_z(x_3 = R) =$$
+                                                                      <textEntryInteraction class="ctest_l ctest_r" expectedLength="1" placeholderText="0,00" responseIdentifier="RESPONSE_21"/>
+                                                                      $$\text{kN}$$
+                                                                 </td>
+                                                            </tr>
+                                                       </tbody>
+                                                  </table>
+                                             </td>
+                                        </tr>
+                                        <tr style="text-align: center;">
+                                             <td>Moment $$M_y$$</td>
+                                             <td>
+                                                  <table border="1" style="border-collapse: collapse; min-width: 150px;">
+                                                       <tbody>
+                                                            <tr>
+                                                                 <td>
+                                                                      $$M_y(x_1 = L) =$$
+                                                                      <textEntryInteraction class="ctest_l ctest_r" expectedLength="1" placeholderText="0,00" responseIdentifier="RESPONSE_22"/>
+                                                                      $$\text{kNm}$$
+                                                                 </td>
+                                                                 <td>
+                                                                      $$M_y(x_1 = R) =$$
+                                                                      <textEntryInteraction class="ctest_l ctest_r" expectedLength="1" placeholderText="0,00" responseIdentifier="RESPONSE_23"/>
+                                                                      $$\text{kNm}$$
+                                                                 </td>
+                                                            </tr>
+                                                       </tbody>
+                                                  </table>
+                                             </td>
+                                             <td>
+                                                  <table border="1" style="border-collapse: collapse; min-width: 150px;">
+                                                       <tbody>
+                                                            <tr>
+                                                                 <td>
+                                                                      $$M_y(x_2 = L) =$$
+                                                                      <textEntryInteraction class="ctest_l ctest_r" expectedLength="1" placeholderText="0,00" responseIdentifier="RESPONSE_24"/>
+                                                                      $$\text{kNm}$$
+                                                                 </td>
+                                                                 <td>
+                                                                      $$M_y(x_2 = R) =$$
+                                                                      <textEntryInteraction class="ctest_l ctest_r" expectedLength="1" placeholderText="0,00" responseIdentifier="RESPONSE_25"/>
+                                                                      $$\text{kNm}$$
+                                                                 </td>
+                                                            </tr>
+                                                       </tbody>
+                                                  </table>
+                                             </td>
+                                             <td>
+                                                  <table border="1" style="border-collapse: collapse; min-width: 150px;">
+                                                       <tbody>
+                                                            <tr>
+                                                                 <td>
+                                                                      $$M_y(x_3 = L) =$$
+                                                                      <textEntryInteraction class="ctest_l ctest_r" expectedLength="1" placeholderText="0,00" responseIdentifier="RESPONSE_26"/>
+                                                                      $$\text{kNm}$$
+                                                                 </td>
+                                                                 <td>
+                                                                      $$M_y(x_3 = R) =$$
+                                                                      <textEntryInteraction class="ctest_l ctest_r" expectedLength="1" placeholderText="0,00" responseIdentifier="RESPONSE_27"/>
+                                                                      $$\text{kNm}$$
+                                                                 </td>
+                                                            </tr>
+                                                       </tbody>
+                                                  </table>
+                                             </td>
+                                        </tr>
+                                   </tbody>
+                              </table>
+                         </td>
+                    </tr>
+               </tbody>
+          </table>
+          <p> </p>
+     </itemBody>
+     <responseProcessing>
+          <responseCondition>
+               <responseIf>
+                    <equal toleranceMode="exact">
+                         <variable identifier="RESPONSE_1"/>
+                         <correct identifier="id258ce883-563a-4aa6-af58-516170971c37.RESPONSE_1"/>
+                    </equal>
+                    <setOutcomeValue identifier="SCORE_RESPONSE_1">
+                         <variable identifier="MAXSCORE_RESPONSE_1"/>
+                    </setOutcomeValue>
+               </responseIf>
+          </responseCondition>
+          <responseCondition>
+               <responseIf>
+                    <equal toleranceMode="exact">
+                         <variable identifier="RESPONSE_2"/>
+                         <correct identifier="id258ce883-563a-4aa6-af58-516170971c37.RESPONSE_2"/>
+                    </equal>
+                    <setOutcomeValue identifier="SCORE_RESPONSE_2">
+                         <variable identifier="MAXSCORE_RESPONSE_2"/>
+                    </setOutcomeValue>
+               </responseIf>
+          </responseCondition>
+          <responseCondition>
+               <responseIf>
+                    <equal toleranceMode="exact">
+                         <variable identifier="RESPONSE_3"/>
+                         <correct identifier="id258ce883-563a-4aa6-af58-516170971c37.RESPONSE_3"/>
+                    </equal>
+                    <setOutcomeValue identifier="SCORE_RESPONSE_3">
+                         <variable identifier="MAXSCORE_RESPONSE_3"/>
+                    </setOutcomeValue>
+               </responseIf>
+          </responseCondition>
+          <responseCondition>
+               <responseIf>
+                    <equal toleranceMode="exact">
+                         <variable identifier="RESPONSE_4"/>
+                         <correct identifier="id258ce883-563a-4aa6-af58-516170971c37.RESPONSE_4"/>
+                    </equal>
+                    <setOutcomeValue identifier="SCORE_RESPONSE_4">
+                         <variable identifier="MAXSCORE_RESPONSE_4"/>
+                    </setOutcomeValue>
+               </responseIf>
+          </responseCondition>
+          <responseCondition>
+               <responseIf>
+                    <equal toleranceMode="exact">
+                         <variable identifier="RESPONSE_5"/>
+                         <correct identifier="id258ce883-563a-4aa6-af58-516170971c37.RESPONSE_5"/>
+                    </equal>
+                    <setOutcomeValue identifier="SCORE_RESPONSE_5">
+                         <variable identifier="MAXSCORE_RESPONSE_5"/>
+                    </setOutcomeValue>
+               </responseIf>
+          </responseCondition>
+          <responseCondition>
+               <responseIf>
+                    <equal toleranceMode="exact">
+                         <variable identifier="RESPONSE_6"/>
+                         <correct identifier="id258ce883-563a-4aa6-af58-516170971c37.RESPONSE_6"/>
+                    </equal>
+                    <setOutcomeValue identifier="SCORE_RESPONSE_6">
+                         <variable identifier="MAXSCORE_RESPONSE_6"/>
+                    </setOutcomeValue>
+               </responseIf>
+          </responseCondition>
+          <responseCondition>
+               <responseIf>
+                    <equal toleranceMode="exact">
+                         <variable identifier="RESPONSE_7"/>
+                         <correct identifier="id258ce883-563a-4aa6-af58-516170971c37.RESPONSE_7"/>
+                    </equal>
+                    <setOutcomeValue identifier="SCORE_RESPONSE_7">
+                         <variable identifier="MAXSCORE_RESPONSE_7"/>
+                    </setOutcomeValue>
+               </responseIf>
+          </responseCondition>
+          <responseCondition>
+               <responseIf>
+                    <equal toleranceMode="exact">
+                         <variable identifier="RESPONSE_8"/>
+                         <correct identifier="id258ce883-563a-4aa6-af58-516170971c37.RESPONSE_8"/>
+                    </equal>
+                    <setOutcomeValue identifier="SCORE_RESPONSE_8">
+                         <variable identifier="MAXSCORE_RESPONSE_8"/>
+                    </setOutcomeValue>
+               </responseIf>
+          </responseCondition>
+          <responseCondition>
+               <responseIf>
+                    <equal toleranceMode="exact">
+                         <variable identifier="RESPONSE_9"/>
+                         <correct identifier="id258ce883-563a-4aa6-af58-516170971c37.RESPONSE_9"/>
+                    </equal>
+                    <setOutcomeValue identifier="SCORE_RESPONSE_9">
+                         <variable identifier="MAXSCORE_RESPONSE_9"/>
+                    </setOutcomeValue>
+               </responseIf>
+          </responseCondition>
+          <responseCondition>
+               <responseIf>
+                    <equal toleranceMode="exact">
+                         <variable identifier="RESPONSE_10"/>
+                         <correct identifier="id258ce883-563a-4aa6-af58-516170971c37.RESPONSE_10"/>
+                    </equal>
+                    <setOutcomeValue identifier="SCORE_RESPONSE_10">
+                         <variable identifier="MAXSCORE_RESPONSE_10"/>
+                    </setOutcomeValue>
+               </responseIf>
+          </responseCondition>
+          <responseCondition>
+               <responseIf>
+                    <equal toleranceMode="exact">
+                         <variable identifier="RESPONSE_11"/>
+                         <correct identifier="id258ce883-563a-4aa6-af58-516170971c37.RESPONSE_11"/>
+                    </equal>
+                    <setOutcomeValue identifier="SCORE_RESPONSE_11">
+                         <variable identifier="MAXSCORE_RESPONSE_11"/>
+                    </setOutcomeValue>
+               </responseIf>
+          </responseCondition>
+          <responseCondition>
+               <responseIf>
+                    <equal toleranceMode="exact">
+                         <variable identifier="RESPONSE_12"/>
+                         <correct identifier="id258ce883-563a-4aa6-af58-516170971c37.RESPONSE_12"/>
+                    </equal>
+                    <setOutcomeValue identifier="SCORE_RESPONSE_12">
+                         <variable identifier="MAXSCORE_RESPONSE_12"/>
+                    </setOutcomeValue>
+               </responseIf>
+          </responseCondition>
+          <responseCondition>
+               <responseIf>
+                    <equal toleranceMode="exact">
+                         <variable identifier="RESPONSE_13"/>
+                         <correct identifier="id258ce883-563a-4aa6-af58-516170971c37.RESPONSE_13"/>
+                    </equal>
+                    <setOutcomeValue identifier="SCORE_RESPONSE_13">
+                         <variable identifier="MAXSCORE_RESPONSE_13"/>
+                    </setOutcomeValue>
+               </responseIf>
+          </responseCondition>
+          <responseCondition>
+               <responseIf>
+                    <equal toleranceMode="exact">
+                         <variable identifier="RESPONSE_14"/>
+                         <correct identifier="id258ce883-563a-4aa6-af58-516170971c37.RESPONSE_14"/>
+                    </equal>
+                    <setOutcomeValue identifier="SCORE_RESPONSE_14">
+                         <variable identifier="MAXSCORE_RESPONSE_14"/>
+                    </setOutcomeValue>
+               </responseIf>
+          </responseCondition>
+          <responseCondition>
+               <responseIf>
+                    <equal toleranceMode="exact">
+                         <variable identifier="RESPONSE_15"/>
+                         <correct identifier="id258ce883-563a-4aa6-af58-516170971c37.RESPONSE_15"/>
+                    </equal>
+                    <setOutcomeValue identifier="SCORE_RESPONSE_15">
+                         <variable identifier="MAXSCORE_RESPONSE_15"/>
+                    </setOutcomeValue>
+               </responseIf>
+          </responseCondition>
+          <responseCondition>
+               <responseIf>
+                    <equal toleranceMode="exact">
+                         <variable identifier="RESPONSE_16"/>
+                         <correct identifier="id258ce883-563a-4aa6-af58-516170971c37.RESPONSE_16"/>
+                    </equal>
+                    <setOutcomeValue identifier="SCORE_RESPONSE_16">
+                         <variable identifier="MAXSCORE_RESPONSE_16"/>
+                    </setOutcomeValue>
+               </responseIf>
+          </responseCondition>
+          <responseCondition>
+               <responseIf>
+                    <equal toleranceMode="exact">
+                         <variable identifier="RESPONSE_17"/>
+                         <correct identifier="id258ce883-563a-4aa6-af58-516170971c37.RESPONSE_17"/>
+                    </equal>
+                    <setOutcomeValue identifier="SCORE_RESPONSE_17">
+                         <variable identifier="MAXSCORE_RESPONSE_17"/>
+                    </setOutcomeValue>
+               </responseIf>
+          </responseCondition>
+          <responseCondition>
+               <responseIf>
+                    <equal toleranceMode="exact">
+                         <variable identifier="RESPONSE_18"/>
+                         <correct identifier="id258ce883-563a-4aa6-af58-516170971c37.RESPONSE_18"/>
+                    </equal>
+                    <setOutcomeValue identifier="SCORE_RESPONSE_18">
+                         <variable identifier="MAXSCORE_RESPONSE_18"/>
+                    </setOutcomeValue>
+               </responseIf>
+          </responseCondition>
+          <responseCondition>
+               <responseIf>
+                    <equal toleranceMode="exact">
+                         <variable identifier="RESPONSE_19"/>
+                         <correct identifier="id258ce883-563a-4aa6-af58-516170971c37.RESPONSE_19"/>
+                    </equal>
+                    <setOutcomeValue identifier="SCORE_RESPONSE_19">
+                         <variable identifier="MAXSCORE_RESPONSE_19"/>
+                    </setOutcomeValue>
+               </responseIf>
+          </responseCondition>
+          <responseCondition>
+               <responseIf>
+                    <equal toleranceMode="exact">
+                         <variable identifier="RESPONSE_20"/>
+                         <correct identifier="id258ce883-563a-4aa6-af58-516170971c37.RESPONSE_20"/>
+                    </equal>
+                    <setOutcomeValue identifier="SCORE_RESPONSE_20">
+                         <variable identifier="MAXSCORE_RESPONSE_20"/>
+                    </setOutcomeValue>
+               </responseIf>
+          </responseCondition>
+          <responseCondition>
+               <responseIf>
+                    <equal toleranceMode="exact">
+                         <variable identifier="RESPONSE_21"/>
+                         <correct identifier="id258ce883-563a-4aa6-af58-516170971c37.RESPONSE_21"/>
+                    </equal>
+                    <setOutcomeValue identifier="SCORE_RESPONSE_21">
+                         <variable identifier="MAXSCORE_RESPONSE_21"/>
+                    </setOutcomeValue>
+               </responseIf>
+          </responseCondition>
+          <responseCondition>
+               <responseIf>
+                    <equal toleranceMode="exact">
+                         <variable identifier="RESPONSE_22"/>
+                         <correct identifier="id258ce883-563a-4aa6-af58-516170971c37.RESPONSE_22"/>
+                    </equal>
+                    <setOutcomeValue identifier="SCORE_RESPONSE_22">
+                         <variable identifier="MAXSCORE_RESPONSE_22"/>
+                    </setOutcomeValue>
+               </responseIf>
+          </responseCondition>
+          <responseCondition>
+               <responseIf>
+                    <equal toleranceMode="exact">
+                         <variable identifier="RESPONSE_23"/>
+                         <correct identifier="id258ce883-563a-4aa6-af58-516170971c37.RESPONSE_23"/>
+                    </equal>
+                    <setOutcomeValue identifier="SCORE_RESPONSE_23">
+                         <variable identifier="MAXSCORE_RESPONSE_23"/>
+                    </setOutcomeValue>
+               </responseIf>
+          </responseCondition>
+          <responseCondition>
+               <responseIf>
+                    <equal toleranceMode="exact">
+                         <variable identifier="RESPONSE_24"/>
+                         <correct identifier="id258ce883-563a-4aa6-af58-516170971c37.RESPONSE_24"/>
+                    </equal>
+                    <setOutcomeValue identifier="SCORE_RESPONSE_24">
+                         <variable identifier="MAXSCORE_RESPONSE_24"/>
+                    </setOutcomeValue>
+               </responseIf>
+          </responseCondition>
+          <responseCondition>
+               <responseIf>
+                    <equal toleranceMode="exact">
+                         <variable identifier="RESPONSE_25"/>
+                         <correct identifier="id258ce883-563a-4aa6-af58-516170971c37.RESPONSE_25"/>
+                    </equal>
+                    <setOutcomeValue identifier="SCORE_RESPONSE_25">
+                         <variable identifier="MAXSCORE_RESPONSE_25"/>
+                    </setOutcomeValue>
+               </responseIf>
+          </responseCondition>
+          <responseCondition>
+               <responseIf>
+                    <equal toleranceMode="exact">
+                         <variable identifier="RESPONSE_26"/>
+                         <correct identifier="id258ce883-563a-4aa6-af58-516170971c37.RESPONSE_26"/>
+                    </equal>
+                    <setOutcomeValue identifier="SCORE_RESPONSE_26">
+                         <variable identifier="MAXSCORE_RESPONSE_26"/>
+                    </setOutcomeValue>
+               </responseIf>
+          </responseCondition>
+          <responseCondition>
+               <responseIf>
+                    <equal toleranceMode="exact">
+                         <variable identifier="RESPONSE_27"/>
+                         <correct identifier="id258ce883-563a-4aa6-af58-516170971c37.RESPONSE_27"/>
+                    </equal>
+                    <setOutcomeValue identifier="SCORE_RESPONSE_27">
+                         <variable identifier="MAXSCORE_RESPONSE_27"/>
+                    </setOutcomeValue>
+               </responseIf>
+          </responseCondition>
+          <setOutcomeValue identifier="SCORE">
+               <sum>
+                    <variable identifier="SCORE_RESPONSE_1"/>
+                    <variable identifier="SCORE_RESPONSE_2"/>
+                    <variable identifier="SCORE_RESPONSE_3"/>
+                    <variable identifier="SCORE_RESPONSE_4"/>
+                    <variable identifier="SCORE_RESPONSE_5"/>
+                    <variable identifier="SCORE_RESPONSE_6"/>
+                    <variable identifier="SCORE_RESPONSE_7"/>
+                    <variable identifier="SCORE_RESPONSE_8"/>
+                    <variable identifier="SCORE_RESPONSE_9"/>
+                    <variable identifier="SCORE_RESPONSE_10"/>
+                    <variable identifier="SCORE_RESPONSE_11"/>
+                    <variable identifier="SCORE_RESPONSE_12"/>
+                    <variable identifier="SCORE_RESPONSE_13"/>
+                    <variable identifier="SCORE_RESPONSE_14"/>
+                    <variable identifier="SCORE_RESPONSE_15"/>
+                    <variable identifier="SCORE_RESPONSE_16"/>
+                    <variable identifier="SCORE_RESPONSE_17"/>
+                    <variable identifier="SCORE_RESPONSE_18"/>
+                    <variable identifier="SCORE_RESPONSE_19"/>
+                    <variable identifier="SCORE_RESPONSE_20"/>
+                    <variable identifier="SCORE_RESPONSE_21"/>
+                    <variable identifier="SCORE_RESPONSE_22"/>
+                    <variable identifier="SCORE_RESPONSE_23"/>
+                    <variable identifier="SCORE_RESPONSE_24"/>
+                    <variable identifier="SCORE_RESPONSE_25"/>
+                    <variable identifier="SCORE_RESPONSE_26"/>
+                    <variable identifier="SCORE_RESPONSE_27"/>
+               </sum>
+          </setOutcomeValue>
+          <responseCondition>
+               <responseIf>
+                    <gt>
+                         <variable identifier="SCORE"/>
+                         <variable identifier="MAXSCORE"/>
+                    </gt>
+                    <setOutcomeValue identifier="SCORE">
+                         <variable identifier="MAXSCORE"/>
+                    </setOutcomeValue>
+               </responseIf>
+          </responseCondition>
+          <responseCondition>
+               <responseIf>
+                    <lt>
+                         <variable identifier="SCORE"/>
+                         <variable identifier="MINSCORE"/>
+                    </lt>
+                    <setOutcomeValue identifier="SCORE">
+                         <variable identifier="MINSCORE"/>
+                    </setOutcomeValue>
+               </responseIf>
+          </responseCondition>
+     </responseProcessing>
+</assessmentItem>

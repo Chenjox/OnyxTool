@@ -1,0 +1,1265 @@
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" adaptive="false" identifier="aufgabe5" timeDependent="false" title="Spannungsnulllinie 1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p1.xsd http://www.w3.org/1998/Math/MathML http://www.w3.org/Math/XMLSchema/mathml2/mathml2.xsd">
+         
+    <responseDeclaration baseType="float" cardinality="single" identifier="RESPONSE_1"/>
+         
+    <responseDeclaration baseType="float" cardinality="single" identifier="RESPONSE_2"/>
+         
+    <responseDeclaration baseType="float" cardinality="single" identifier="RESPONSE_3"/>
+         
+    <responseDeclaration baseType="float" cardinality="single" identifier="RESPONSE_4"/>
+         
+    <responseDeclaration baseType="float" cardinality="single" identifier="RESPONSE_5"/>
+         
+    <responseDeclaration baseType="float" cardinality="single" identifier="RESPONSE_6"/>
+         
+    <responseDeclaration baseType="float" cardinality="single" identifier="RESPONSE_7"/>
+         
+    <outcomeDeclaration baseType="float" cardinality="single" identifier="SCORE_RESPONSE_1" view="testConstructor">
+                  
+        <defaultValue>
+                           
+            <value>0</value>
+                      
+        </defaultValue>
+             
+    </outcomeDeclaration>
+         
+    <outcomeDeclaration baseType="float" cardinality="single" identifier="MINSCORE_RESPONSE_1" view="testConstructor">
+                  
+        <defaultValue>
+                           
+            <value>0</value>
+                      
+        </defaultValue>
+             
+    </outcomeDeclaration>
+         
+    <outcomeDeclaration baseType="float" cardinality="single" identifier="MAXSCORE_RESPONSE_1" view="testConstructor">
+                  
+        <defaultValue>
+                           
+            <value>1</value>
+                      
+        </defaultValue>
+             
+    </outcomeDeclaration>
+         
+    <outcomeDeclaration baseType="float" cardinality="single" identifier="SCORE">
+                  
+        <defaultValue>
+                           
+            <value>0</value>
+                      
+        </defaultValue>
+             
+    </outcomeDeclaration>
+         
+    <outcomeDeclaration baseType="float" cardinality="single" identifier="SCORE_RESPONSE_2" view="testConstructor">
+                  
+        <defaultValue>
+                           
+            <value>0</value>
+                      
+        </defaultValue>
+             
+    </outcomeDeclaration>
+         
+    <outcomeDeclaration baseType="float" cardinality="single" identifier="MINSCORE_RESPONSE_2" view="testConstructor">
+                  
+        <defaultValue>
+                           
+            <value>0</value>
+                      
+        </defaultValue>
+             
+    </outcomeDeclaration>
+         
+    <outcomeDeclaration baseType="float" cardinality="single" identifier="MAXSCORE_RESPONSE_2" view="testConstructor">
+                  
+        <defaultValue>
+                           
+            <value>1</value>
+                      
+        </defaultValue>
+             
+    </outcomeDeclaration>
+         
+    <outcomeDeclaration baseType="float" cardinality="single" identifier="SCORE_RESPONSE_3" view="testConstructor">
+                  
+        <defaultValue>
+                           
+            <value>0</value>
+                      
+        </defaultValue>
+             
+    </outcomeDeclaration>
+         
+    <outcomeDeclaration baseType="float" cardinality="single" identifier="MINSCORE_RESPONSE_3" view="testConstructor">
+                  
+        <defaultValue>
+                           
+            <value>0</value>
+                      
+        </defaultValue>
+             
+    </outcomeDeclaration>
+         
+    <outcomeDeclaration baseType="float" cardinality="single" identifier="MAXSCORE_RESPONSE_3" view="testConstructor">
+                  
+        <defaultValue>
+                           
+            <value>1</value>
+                      
+        </defaultValue>
+             
+    </outcomeDeclaration>
+         
+    <outcomeDeclaration baseType="float" cardinality="single" identifier="SCORE_RESPONSE_4" view="testConstructor">
+                  
+        <defaultValue>
+                           
+            <value>0</value>
+                      
+        </defaultValue>
+             
+    </outcomeDeclaration>
+         
+    <outcomeDeclaration baseType="float" cardinality="single" identifier="MINSCORE_RESPONSE_4" view="testConstructor">
+                  
+        <defaultValue>
+                           
+            <value>0</value>
+                      
+        </defaultValue>
+             
+    </outcomeDeclaration>
+         
+    <outcomeDeclaration baseType="float" cardinality="single" identifier="MAXSCORE_RESPONSE_4" view="testConstructor">
+                  
+        <defaultValue>
+                           
+            <value>1</value>
+                      
+        </defaultValue>
+             
+    </outcomeDeclaration>
+         
+    <outcomeDeclaration baseType="float" cardinality="single" identifier="SCORE_RESPONSE_5" view="testConstructor">
+                  
+        <defaultValue>
+                           
+            <value>0</value>
+                      
+        </defaultValue>
+             
+    </outcomeDeclaration>
+         
+    <outcomeDeclaration baseType="float" cardinality="single" identifier="MINSCORE_RESPONSE_5" view="testConstructor">
+                  
+        <defaultValue>
+                           
+            <value>0</value>
+                      
+        </defaultValue>
+             
+    </outcomeDeclaration>
+         
+    <outcomeDeclaration baseType="float" cardinality="single" identifier="MAXSCORE_RESPONSE_5" view="testConstructor">
+                  
+        <defaultValue>
+                           
+            <value>1</value>
+                      
+        </defaultValue>
+             
+    </outcomeDeclaration>
+         
+    <outcomeDeclaration baseType="float" cardinality="single" identifier="SCORE_RESPONSE_6" view="testConstructor">
+                  
+        <defaultValue>
+                           
+            <value>0</value>
+                      
+        </defaultValue>
+             
+    </outcomeDeclaration>
+         
+    <outcomeDeclaration baseType="float" cardinality="single" identifier="MINSCORE_RESPONSE_6" view="testConstructor">
+                  
+        <defaultValue>
+                           
+            <value>0</value>
+                      
+        </defaultValue>
+             
+    </outcomeDeclaration>
+         
+    <outcomeDeclaration baseType="float" cardinality="single" identifier="MAXSCORE_RESPONSE_6" view="testConstructor">
+                  
+        <defaultValue>
+                           
+            <value>1</value>
+                      
+        </defaultValue>
+             
+    </outcomeDeclaration>
+         
+    <outcomeDeclaration baseType="float" cardinality="single" identifier="SCORE_RESPONSE_7" view="testConstructor">
+                  
+        <defaultValue>
+                           
+            <value>0</value>
+                      
+        </defaultValue>
+             
+    </outcomeDeclaration>
+         
+    <outcomeDeclaration baseType="float" cardinality="single" identifier="MINSCORE_RESPONSE_7" view="testConstructor">
+                  
+        <defaultValue>
+                           
+            <value>0</value>
+                      
+        </defaultValue>
+             
+    </outcomeDeclaration>
+         
+    <outcomeDeclaration baseType="float" cardinality="single" identifier="MAXSCORE_RESPONSE_7" view="testConstructor">
+                  
+        <defaultValue>
+                           
+            <value>1</value>
+                      
+        </defaultValue>
+             
+    </outcomeDeclaration>
+         
+    <outcomeDeclaration baseType="float" cardinality="single" identifier="MAXSCORE">
+                  
+        <defaultValue>
+                           
+            <value>7</value>
+                      
+        </defaultValue>
+             
+    </outcomeDeclaration>
+         
+    <outcomeDeclaration baseType="float" cardinality="single" identifier="MINSCORE" view="testConstructor">
+                  
+        <defaultValue>
+                           
+            <value>0</value>
+                      
+        </defaultValue>
+             
+    </outcomeDeclaration>
+         
+    <templateDeclaration baseType="float" cardinality="single" identifier="PRNG_SEED_BEFORE_INPUT"/>
+    <templateDeclaration baseType="integer" cardinality="single" identifier="INPUT"/>
+    <templateDeclaration baseType="float" cardinality="single" identifier="PRNG_SEED_AFTER_INPUT"/>
+         
+    <templateDeclaration baseType="integer" cardinality="single" identifier="PRNG_SEED"/>
+         
+    <templateDeclaration baseType="integer" cardinality="single" identifier="PRNG_1"/>
+         
+    <templateDeclaration baseType="integer" cardinality="single" identifier="PRNG_2"/>
+         
+    <templateDeclaration baseType="integer" cardinality="single" identifier="PRNG_3"/>
+         
+    <templateDeclaration baseType="integer" cardinality="single" identifier="PRNG_4"/>
+         
+    <templateDeclaration baseType="integer" cardinality="single" identifier="PRNG_5"/>
+         
+    <templateDeclaration baseType="float" cardinality="single" identifier="F"/>
+         
+    <templateDeclaration baseType="float" cardinality="single" identifier="J"/>
+         
+    <templateDeclaration baseType="float" cardinality="single" identifier="L_A"/>
+         
+    <templateDeclaration baseType="float" cardinality="single" identifier="L_B"/>
+         
+    <templateDeclaration baseType="float" cardinality="single" identifier="H"/>
+         
+    <templateDeclaration baseType="float" cardinality="single" identifier="L_C"/>
+         
+    <templateDeclaration baseType="float" cardinality="single" identifier="L_D"/>
+         
+    <templateDeclaration baseType="float" cardinality="single" identifier="G"/>
+         
+    <templateDeclaration baseType="float" cardinality="single" identifier="A"/>
+         
+    <templateDeclaration baseType="float" cardinality="single" identifier="ANZEIGE_MY"/>
+         
+    <templateDeclaration baseType="float" cardinality="single" identifier="ANZEIGE_MZ"/>
+         
+    <templateDeclaration baseType="float" cardinality="single" identifier="S"/>
+         
+    <templateDeclaration baseType="integer" cardinality="single" identifier="IY"/>
+         
+    <templateDeclaration baseType="integer" cardinality="single" identifier="IZ"/>
+         
+    <templateDeclaration baseType="float" cardinality="single" identifier="MY"/>
+         
+    <templateDeclaration baseType="float" cardinality="single" identifier="MZ"/>
+         
+    <templateDeclaration baseType="float" cardinality="single" identifier="NX"/>
+         
+    <templateDeclaration baseType="float" cardinality="single" identifier="ERGEBNIS_B1"/>
+         
+    <templateDeclaration baseType="float" cardinality="single" identifier="ERGEBNIS_B2"/>
+         
+    <templateDeclaration baseType="float" cardinality="single" identifier="ERGEBNIS_B3"/>
+         
+    <templateDeclaration baseType="float" cardinality="single" identifier="ERGEBNIS_N1"/>
+         
+    <templateDeclaration baseType="float" cardinality="single" identifier="ERGEBNIS_N2"/>
+         
+    <templateDeclaration baseType="float" cardinality="single" identifier="B_ECKE1"/>
+         
+    <templateDeclaration baseType="float" cardinality="single" identifier="B_ECKE2"/>
+         
+    <templateDeclaration baseType="float" cardinality="single" identifier="B_ECKE3"/>
+         
+    <templateDeclaration baseType="float" cardinality="single" identifier="B_ECKE4"/>
+         
+    <templateDeclaration baseType="float" cardinality="single" identifier="B_ECKE5"/>
+         
+    <templateDeclaration baseType="float" cardinality="single" identifier="B_ECKE6"/>
+         
+    <templateDeclaration baseType="float" cardinality="single" identifier="ERGEBNIS_DRUCK"/>
+         
+    <templateDeclaration baseType="float" cardinality="single" identifier="ERGEBNIS_ZUG"/>
+         
+    <templateProcessing>
+                  
+        <setTemplateValue identifier="PRNG_SEED_BEFORE_INPUT">
+            <baseValue baseType="integer">3</baseValue>
+        </setTemplateValue>
+        <setTemplateValue identifier="INPUT">
+                           
+            <baseValue baseType="integer">6</baseValue>
+                      
+        </setTemplateValue>
+        <setTemplateValue identifier="PRNG_SEED_AFTER_INPUT">
+            <baseValue baseType="integer">3</baseValue>
+        </setTemplateValue>
+                  
+        <setTemplateValue identifier="PRNG_SEED">
+                           
+            <baseValue baseType="integer">5</baseValue>
+                      
+        </setTemplateValue>
+                  
+        <setTemplateValue identifier="PRNG_1">
+                           
+            <customOperator definition="MAXIMA" value="float(block([vorher, mult, inkr, modul], vorher:$(2)*$(1), mult:134775813 , inkr:1 , modul:4294967296, mod( (mult*vorher+inkr) , modul)));">
+                                    
+                <variable identifier="INPUT"/>
+                                    
+                <variable identifier="PRNG_SEED"/>
+                               
+            </customOperator>
+                      
+        </setTemplateValue>
+                  
+        <setTemplateValue identifier="PRNG_2">
+                           
+            <customOperator definition="MAXIMA" value="float(block([vorher, mult, inkr, modul], vorher:$(1), mult:134775813 , inkr:1 , modul:4294967296, mod( (mult*vorher+inkr) , modul)));">
+                                    
+                <variable identifier="PRNG_1"/>
+                               
+            </customOperator>
+                      
+        </setTemplateValue>
+                  
+        <setTemplateValue identifier="PRNG_3">
+                           
+            <customOperator definition="MAXIMA" value="float(block([vorher, mult, inkr, modul], vorher:$(1), mult:134775813 , inkr:1 , modul:4294967296, mod( (mult*vorher+inkr) , modul)));">
+                                    
+                <variable identifier="PRNG_2"/>
+                               
+            </customOperator>
+                      
+        </setTemplateValue>
+                  
+        <setTemplateValue identifier="PRNG_4">
+                           
+            <customOperator definition="MAXIMA" value="float(block([vorher, mult, inkr, modul], vorher:$(1), mult:134775813 , inkr:1 , modul:4294967296, mod( (mult*vorher+inkr) , modul)));">
+                                    
+                <variable identifier="PRNG_3"/>
+                               
+            </customOperator>
+                      
+        </setTemplateValue>
+                  
+        <setTemplateValue identifier="PRNG_5">
+                           
+            <customOperator definition="MAXIMA" value="float(block([vorher, mult, inkr, modul], vorher:$(1), mult:134775813 , inkr:1 , modul:4294967296, mod( (mult*vorher+inkr) , modul)));">
+                                    
+                <variable identifier="PRNG_4"/>
+                               
+            </customOperator>
+                      
+        </setTemplateValue>
+                  
+        <setTemplateValue identifier="F">
+                           
+            <customOperator definition="MAXIMA" value="float(block([prng, obereGrenze, untereGrenze], prng:$(1)*$(2), obereGrenze:0.75, untereGrenze:-0.75 , (untereGrenze + (obereGrenze-untereGrenze)*(truncate( prng / ( 10^(ceiling( log( prng )/log( 10 ) - 2 ) ) ) ))/(100)) ));">
+                                    
+                <variable identifier="PRNG_1"/>
+                                    
+                <variable identifier="PRNG_2"/>
+                               
+            </customOperator>
+                      
+        </setTemplateValue>
+                  
+        <setTemplateValue identifier="J">
+                           
+            <customOperator definition="MAXIMA" value="float(block([prng, obereGrenze, untereGrenze], prng:$(1), obereGrenze:0.5, untereGrenze:0.25 , (untereGrenze + (obereGrenze-untereGrenze)*(truncate( prng / ( 10^(ceiling( log( prng )/log( 10 ) - 2 ) ) ) ))/(100)) ));">
+                                    
+                <variable identifier="PRNG_5"/>
+                               
+            </customOperator>
+                      
+        </setTemplateValue>
+                  
+        <setTemplateValue identifier="L_A">
+                           
+            <customOperator definition="MAXIMA" value="float(block([zahl, stellen, nachkomma], zahl:$(1), stellen:2, nachkomma:2 , (truncate( zahl / ( 10^(ceiling( log( zahl )/log( 10 ) - (stellen+nachkomma) ) ) ) ))/(10^nachkomma) ));">
+                                    
+                <variable identifier="PRNG_3"/>
+                               
+            </customOperator>
+                      
+        </setTemplateValue>
+                  
+        <setTemplateValue identifier="L_B">
+                           
+            <customOperator definition="MAXIMA" value="float(block([zahl, stellen, nachkomma], zahl:$(2)*$(1), stellen:2, nachkomma:2 , (truncate( zahl / ( 10^(ceiling( log( zahl )/log( 10 ) - (stellen+nachkomma) ) ) ) ))/(10^nachkomma) ));">
+                                    
+                <variable identifier="PRNG_3"/>
+                                    
+                <variable identifier="PRNG_4"/>
+                               
+            </customOperator>
+                      
+        </setTemplateValue>
+                  
+        <setTemplateValue identifier="H">
+                           
+            <customOperator definition="MAXIMA" value="float(block([prng, obereGrenze, untereGrenze, kommastellen], prng:$(1)*$(2), obereGrenze:0.5, untereGrenze:0.25 , (untereGrenze + (obereGrenze-untereGrenze)*(truncate( prng / ( 10^(ceiling( log( prng )/log( 10 ) - 2 ) ) ) ))/(100)) ));">
+                                    
+                <variable identifier="PRNG_1"/>
+                                    
+                <variable identifier="PRNG_4"/>
+                               
+            </customOperator>
+                      
+        </setTemplateValue>
+                  
+        <setTemplateValue identifier="L_C">
+                           
+            <customOperator definition="MAXIMA" value="float(($(2)*$(1)));">
+                                    
+                <variable identifier="H"/>
+                                    
+                <variable identifier="L_D"/>
+                               
+            </customOperator>
+                      
+        </setTemplateValue>
+                  
+        <setTemplateValue identifier="L_D">
+                           
+            <customOperator definition="MAXIMA" value="float(block([zahl, stellen, nachkomma], zahl:$(2)*$(1), stellen:2, nachkomma:2 , (truncate( zahl / ( 10^(ceiling( log( zahl )/log( 10 ) - (stellen+nachkomma) ) ) ) ))/(10^nachkomma) ));">
+                                    
+                <variable identifier="PRNG_1"/>
+                                    
+                <variable identifier="PRNG_5"/>
+                               
+            </customOperator>
+                      
+        </setTemplateValue>
+                  
+        <setTemplateValue identifier="G">
+                           
+            <customOperator definition="MAXIMA" value="float((1/2*$(1)));">
+                                    
+                <variable identifier="L_D"/>
+                               
+            </customOperator>
+                      
+        </setTemplateValue>
+                  
+        <setTemplateValue identifier="A">
+                           
+            <customOperator definition="MAXIMA" value="float(($(1)*$(3)+$(2)*$(4)));">
+                                    
+                <variable identifier="L_A"/>
+                                    
+                <variable identifier="L_B"/>
+                                    
+                <variable identifier="L_C"/>
+                                    
+                <variable identifier="L_D"/>
+                               
+            </customOperator>
+                      
+        </setTemplateValue>
+                  
+        <setTemplateValue identifier="ANZEIGE_MY">
+                           
+            <customOperator definition="MAXIMA" value="float(block([prng, obereGrenze, untereGrenze], prng:$(1)*$(2), obereGrenze:99, untereGrenze:-99 , (untereGrenze + (obereGrenze-untereGrenze)*(truncate( prng / ( 10^(ceiling( log( prng )/log( 10 ) - 2 ) ) ) ))/(100)) ));">
+                                    
+                <variable identifier="PRNG_2"/>
+                                    
+                <variable identifier="PRNG_3"/>
+                               
+            </customOperator>
+                      
+        </setTemplateValue>
+                  
+        <setTemplateValue identifier="ANZEIGE_MZ">
+                           
+            <customOperator definition="MAXIMA" value="float(block([prng, obereGrenze, untereGrenze], prng:$(1), obereGrenze:99, untereGrenze:-99 , (untereGrenze + (obereGrenze-untereGrenze)*(truncate( prng / ( 10^(ceiling( log( prng )/log( 10 ) - 2 ) ) ) ))/(100)) ));">
+                                    
+                <variable identifier="PRNG_2"/>
+                               
+            </customOperator>
+                      
+        </setTemplateValue>
+                  
+        <setTemplateValue identifier="S">
+                           
+            <customOperator definition="MAXIMA" value="float((($(1)*$(3)*1/2*$(3)+$(2)*$(4)*($(3)+$(4)/2))/($(1)*$(3)+$(2)*$(4))));">
+                                    
+                <variable identifier="L_A"/>
+                                    
+                <variable identifier="L_B"/>
+                                    
+                <variable identifier="L_C"/>
+                                    
+                <variable identifier="L_D"/>
+                               
+            </customOperator>
+                      
+        </setTemplateValue>
+                  
+        <setTemplateValue identifier="IY">
+                           
+            <customOperator definition="MAXIMA" value="float((($(1)*$(3)^3)/12+($(5)-$(3)*1/2)^2*$(1)*$(3)+($(2)*$(4)^3)/12+($(5)-$(3)-$(4)*1/2)^2*$(2)*$(4)));">
+                                    
+                <variable identifier="L_A"/>
+                                    
+                <variable identifier="L_B"/>
+                                    
+                <variable identifier="L_C"/>
+                                    
+                <variable identifier="L_D"/>
+                                    
+                <variable identifier="S"/>
+                               
+            </customOperator>
+                      
+        </setTemplateValue>
+                  
+        <setTemplateValue identifier="IZ">
+                           
+            <customOperator definition="MAXIMA" value="float((($(3)*$(1)^3)/12+($(4)*$(2)^3)/12));">
+                                    
+                <variable identifier="L_A"/>
+                                    
+                <variable identifier="L_B"/>
+                                    
+                <variable identifier="L_C"/>
+                                    
+                <variable identifier="L_D"/>
+                               
+            </customOperator>
+                      
+        </setTemplateValue>
+                  
+        <setTemplateValue identifier="MY">
+                           
+            <customOperator definition="MAXIMA" value="float($(1)*1000);">
+                                    
+                <variable identifier="ANZEIGE_MY"/>
+                               
+            </customOperator>
+                      
+        </setTemplateValue>
+                  
+        <setTemplateValue identifier="MZ">
+                           
+            <customOperator definition="MAXIMA" value="float($(1)*1000);">
+                                    
+                <variable identifier="ANZEIGE_MZ"/>
+                               
+            </customOperator>
+                      
+        </setTemplateValue>
+                  
+        <setTemplateValue identifier="NX">
+                           
+            <customOperator definition="MAXIMA" value="float(round(100*(($(3)*$(2)*$(1)*$(5))/($(4))))/100);">
+                                    
+                <variable identifier="A"/>
+                                    
+                <variable identifier="F"/>
+                                    
+                <variable identifier="G"/>
+                                    
+                <variable identifier="IY"/>
+                                    
+                <variable identifier="MY"/>
+                               
+            </customOperator>
+                      
+        </setTemplateValue>
+                  
+        <setTemplateValue identifier="ERGEBNIS_B1">
+                           
+            <customOperator definition="MAXIMA" value="float(round(100*($(2)/$(1)))/100);">
+                                    
+                <variable identifier="IY"/>
+                                    
+                <variable identifier="MY"/>
+                               
+            </customOperator>
+                      
+        </setTemplateValue>
+                  
+        <setTemplateValue identifier="ERGEBNIS_B2">
+                           
+            <customOperator definition="MAXIMA" value="float(round(100*(-$(2)/$(1)))/100);">
+                                    
+                <variable identifier="IZ"/>
+                                    
+                <variable identifier="MZ"/>
+                               
+            </customOperator>
+                      
+        </setTemplateValue>
+                  
+        <setTemplateValue identifier="ERGEBNIS_B3">
+                           
+            <customOperator definition="MAXIMA" value="float(round(100*($(2)/$(1)))/100);">
+                                    
+                <variable identifier="A"/>
+                                    
+                <variable identifier="NX"/>
+                               
+            </customOperator>
+                      
+        </setTemplateValue>
+                  
+        <setTemplateValue identifier="ERGEBNIS_N1">
+                           
+            <customOperator definition="MAXIMA" value="float(round(100*(($(4)*$(1))/($(2)*$(3))))/100);">
+                                    
+                <variable identifier="IY"/>
+                                    
+                <variable identifier="IZ"/>
+                                    
+                <variable identifier="MY"/>
+                                    
+                <variable identifier="MZ"/>
+                               
+            </customOperator>
+                      
+        </setTemplateValue>
+                  
+        <setTemplateValue identifier="ERGEBNIS_N2">
+                           
+            <customOperator definition="MAXIMA" value="float(round(100*(-(($(4)*$(2))/($(1)*$(3)))))/100);">
+                                    
+                <variable identifier="A"/>
+                                    
+                <variable identifier="IY"/>
+                                    
+                <variable identifier="MY"/>
+                                    
+                <variable identifier="NX"/>
+                               
+            </customOperator>
+                      
+        </setTemplateValue>
+                  
+        <setTemplateValue identifier="B_ECKE1">
+                           
+            <customOperator definition="MAXIMA" value="float(($(1)*(-$(7)+$(5)+$(6))+$(2)*(1/2*$(4))+$(3)));">
+                                    
+                <variable identifier="ERGEBNIS_B1"/>
+                                    
+                <variable identifier="ERGEBNIS_B2"/>
+                                    
+                <variable identifier="ERGEBNIS_B3"/>
+                                    
+                <variable identifier="L_B"/>
+                                    
+                <variable identifier="L_C"/>
+                                    
+                <variable identifier="L_D"/>
+                                    
+                <variable identifier="S"/>
+                               
+            </customOperator>
+                      
+        </setTemplateValue>
+                  
+        <setTemplateValue identifier="B_ECKE2">
+                           
+            <customOperator definition="MAXIMA" value="float(($(1)*(-$(6)+$(5))+$(2)*(1/2*$(4))+$(3)));">
+                                    
+                <variable identifier="ERGEBNIS_B1"/>
+                                    
+                <variable identifier="ERGEBNIS_B2"/>
+                                    
+                <variable identifier="ERGEBNIS_B3"/>
+                                    
+                <variable identifier="L_B"/>
+                                    
+                <variable identifier="L_C"/>
+                                    
+                <variable identifier="S"/>
+                               
+            </customOperator>
+                      
+        </setTemplateValue>
+                  
+        <setTemplateValue identifier="B_ECKE3">
+                           
+            <customOperator definition="MAXIMA" value="float(($(1)*(-$(5))+$(2)*(1/2*$(4))+$(3)));">
+                                    
+                <variable identifier="ERGEBNIS_B1"/>
+                                    
+                <variable identifier="ERGEBNIS_B2"/>
+                                    
+                <variable identifier="ERGEBNIS_B3"/>
+                                    
+                <variable identifier="L_A"/>
+                                    
+                <variable identifier="S"/>
+                               
+            </customOperator>
+                      
+        </setTemplateValue>
+                  
+        <setTemplateValue identifier="B_ECKE4">
+                           
+            <customOperator definition="MAXIMA" value="float(($(1)*(-$(5))+$(2)*(-1/2*$(4))+$(3)));">
+                                    
+                <variable identifier="ERGEBNIS_B1"/>
+                                    
+                <variable identifier="ERGEBNIS_B2"/>
+                                    
+                <variable identifier="ERGEBNIS_B3"/>
+                                    
+                <variable identifier="L_A"/>
+                                    
+                <variable identifier="S"/>
+                               
+            </customOperator>
+                      
+        </setTemplateValue>
+                  
+        <setTemplateValue identifier="B_ECKE5">
+                           
+            <customOperator definition="MAXIMA" value="float(($(1)*(-$(6)+$(5))+$(2)*(-1/2*$(4))+$(3)));">
+                                    
+                <variable identifier="ERGEBNIS_B1"/>
+                                    
+                <variable identifier="ERGEBNIS_B2"/>
+                                    
+                <variable identifier="ERGEBNIS_B3"/>
+                                    
+                <variable identifier="L_B"/>
+                                    
+                <variable identifier="L_C"/>
+                                    
+                <variable identifier="S"/>
+                               
+            </customOperator>
+                      
+        </setTemplateValue>
+                  
+        <setTemplateValue identifier="B_ECKE6">
+                           
+            <customOperator definition="MAXIMA" value="float(($(1)*(-$(7)+$(5)+$(6))+$(2)*(-1/2*$(4))+$(3)));">
+                                    
+                <variable identifier="ERGEBNIS_B1"/>
+                                    
+                <variable identifier="ERGEBNIS_B2"/>
+                                    
+                <variable identifier="ERGEBNIS_B3"/>
+                                    
+                <variable identifier="L_B"/>
+                                    
+                <variable identifier="L_C"/>
+                                    
+                <variable identifier="L_D"/>
+                                    
+                <variable identifier="S"/>
+                               
+            </customOperator>
+                      
+        </setTemplateValue>
+                  
+        <setTemplateValue identifier="ERGEBNIS_DRUCK">
+                           
+            <customOperator definition="MAXIMA" value="float(round(min($(1),$(2),$(3),$(4),$(5),$(6))*100)/100);">
+                                    
+                <variable identifier="B_ECKE1"/>
+                                    
+                <variable identifier="B_ECKE2"/>
+                                    
+                <variable identifier="B_ECKE3"/>
+                                    
+                <variable identifier="B_ECKE4"/>
+                                    
+                <variable identifier="B_ECKE5"/>
+                                    
+                <variable identifier="B_ECKE6"/>
+                               
+            </customOperator>
+                      
+        </setTemplateValue>
+                  
+        <setTemplateValue identifier="ERGEBNIS_ZUG">
+                           
+            <customOperator definition="MAXIMA" value="float(round(max($(1),$(2),$(3),$(4),$(5),$(6))*100)/100);">
+                                    
+                <variable identifier="B_ECKE1"/>
+                                    
+                <variable identifier="B_ECKE2"/>
+                                    
+                <variable identifier="B_ECKE3"/>
+                                    
+                <variable identifier="B_ECKE4"/>
+                                    
+                <variable identifier="B_ECKE5"/>
+                                    
+                <variable identifier="B_ECKE6"/>
+                               
+            </customOperator>
+                      
+        </setTemplateValue>
+                  
+        <setCorrectResponse identifier="RESPONSE_1">
+                           
+            <variable identifier="ERGEBNIS_B1"/>
+                      
+        </setCorrectResponse>
+                  
+        <setCorrectResponse identifier="RESPONSE_2">
+                           
+            <variable identifier="ERGEBNIS_B2"/>
+                      
+        </setCorrectResponse>
+                  
+        <setCorrectResponse identifier="RESPONSE_3">
+                           
+            <variable identifier="ERGEBNIS_B3"/>
+                      
+        </setCorrectResponse>
+                  
+        <setCorrectResponse identifier="RESPONSE_4">
+                           
+            <variable identifier="ERGEBNIS_N1"/>
+                      
+        </setCorrectResponse>
+                  
+        <setCorrectResponse identifier="RESPONSE_5">
+                           
+            <variable identifier="ERGEBNIS_N2"/>
+                      
+        </setCorrectResponse>
+                  
+        <setCorrectResponse identifier="RESPONSE_6">
+                           
+            <variable identifier="ERGEBNIS_DRUCK"/>
+                      
+        </setCorrectResponse>
+                  
+        <setCorrectResponse identifier="RESPONSE_7">
+                           
+            <variable identifier="ERGEBNIS_ZUG"/>
+                      
+        </setCorrectResponse>
+             
+    </templateProcessing>
+         
+    <itemBody>
+                  
+        <p>
+            Berechnen Sie die Spannungen in diesem Querschnitt!
+            <br/>
+            Geben Sie die Formel der Biegenormalspannung an, sowie die Formel der Spannungsnulllinie!
+            <br/>
+            Berechnen Sie die maximale Druck und Zugspannung!
+        </p>
+                  
+        <table>
+                           
+            <tbody>
+                                    
+                <tr>
+                                             
+                    <td>
+                                                      
+                        <table>
+                                                               
+                            <tbody>
+                                                                        
+                                <tr>
+                                                                                 
+                                    <td>
+                                                                                          
+                                        <p>
+                                            $$a = $$
+                                            <printedVariable identifier="L_A"/>
+                                            $$\text{mm}$$
+                                        </p>
+                                                                                          
+                                        <p>
+                                            $$b = $$
+                                            <printedVariable identifier="L_B"/>
+                                            $$\text{mm}$$
+                                        </p>
+                                                                                          
+                                        <p>
+                                            $$c =$$
+                                            <printedVariable identifier="L_C"/>
+                                            $$\text{mm}$$
+                                        </p>
+                                                                                          
+                                        <p>
+                                            $$d = $$
+                                            <printedVariable identifier="L_D"/>
+                                            $$\text{mm}$$
+                                        </p>
+                                                                                          
+                                        <p>
+                                            $$M_y = $$
+                                            <printedVariable identifier="ANZEIGE_MY"/>
+                                            $$\text{Nm}$$
+                                        </p>
+                                                                                          
+                                        <p>
+                                            $$M_z=$$
+                                            <printedVariable identifier="ANZEIGE_MZ"/>
+                                            $$\text{Nm}$$
+                                        </p>
+                                                                                          
+                                        <p>
+                                            $$N_x =$$
+                                            <printedVariable identifier="NX"/>
+                                            $$\text{N}$$
+                                            <br/>
+                                                                                                   
+                                            <br/>
+                                                                                              
+                                        </p>
+                                                                                     
+                                    </td>
+                                                                                 
+                                    <td>
+                                                                                          
+                                        <img alt="" height="256" src="media%2F1.png" width="256"/>
+                                                                                     
+                                    </td>
+                                                                            
+                                </tr>
+                                                                   
+                            </tbody>
+                                                          
+                        </table>
+                                                 
+                    </td>
+                                        
+                </tr>
+                                    
+                <tr>
+                                             
+                    <td>
+                                                      
+                        <p>
+                            Ergänzen Sie die Koeffizienten der Spannungsverteilung und Spannungsnulllinie!
+                            <br/>
+                            Achten Sie darauf, bis zur Eingabe so genau wie möglich zu rechnen!
+                            <br/>
+                            $$\sigma(z, y) = $$
+                            <textEntryInteraction class="ctest_l ctest_r" placeholderText="0.00" responseIdentifier="RESPONSE_1"/>
+                            $$\frac{\text{N}}{\text{mm}^3}*z +$$
+                            <textEntryInteraction class="ctest_l ctest_r" placeholderText="0.00" responseIdentifier="RESPONSE_2"/>
+                            $$\frac{\text{N}}{\text{mm}^3}* y +$$
+                            <textEntryInteraction class="ctest_l ctest_r" placeholderText="0.00" responseIdentifier="RESPONSE_3"/>
+                            $$\frac{\text{N}}{\text{mm}^2}$$
+                        </p>
+                                                      
+                        <p>
+                            $$z(y) = $$
+                            <textEntryInteraction class="ctest_l ctest_r" placeholderText="0.00" responseIdentifier="RESPONSE_4"/>
+                            $$* y +$$
+                            <textEntryInteraction class="ctest_l ctest_r" placeholderText="0.00" responseIdentifier="RESPONSE_5"/>
+                            $$\text{mm}$$
+                        </p>
+                                                 
+                    </td>
+                                        
+                </tr>
+                                    
+                <tr>
+                                             
+                    <td>
+                                                      
+                        <p>
+                            Geben Sie die Spannungen vorzeichenrichtig ein! Benutzen Sie die vorhin ermittelte Spannungsverteilung!
+                            <br/>
+                            $$\sigma_{\text{Druck}} =$$
+                            <textEntryInteraction class="ctest_l ctest_r" placeholderText="0.00" responseIdentifier="RESPONSE_6"/>
+                            $$\frac{\text{N}}{\text{mm}^2}$$
+                        </p>
+                                                      
+                        <p>
+                            $$\sigma_{\text{Zug}} = $$
+                            <textEntryInteraction class="ctest_l ctest_r" placeholderText="0.00" responseIdentifier="RESPONSE_7"/>
+                            $$\frac{\text{N}}{\text{mm}^2}$$
+                        </p>
+                                                 
+                    </td>
+                                        
+                </tr>
+                               
+            </tbody>
+                      
+        </table>
+             
+    </itemBody>
+         
+    <responseProcessing>
+                  
+        <responseCondition>
+                           
+            <responseIf>
+                                    
+                <equal toleranceMode="exact">
+                                             
+                    <variable identifier="RESPONSE_1"/>
+                                             
+                    <correct identifier="RESPONSE_1"/>
+                                        
+                </equal>
+                                    
+                <setOutcomeValue identifier="SCORE_RESPONSE_1">
+                                             
+                    <variable identifier="MAXSCORE_RESPONSE_1"/>
+                                        
+                </setOutcomeValue>
+                               
+            </responseIf>
+                      
+        </responseCondition>
+                  
+        <responseCondition>
+                           
+            <responseIf>
+                                    
+                <equal toleranceMode="exact">
+                                             
+                    <variable identifier="RESPONSE_2"/>
+                                             
+                    <correct identifier="RESPONSE_2"/>
+                                        
+                </equal>
+                                    
+                <setOutcomeValue identifier="SCORE_RESPONSE_2">
+                                             
+                    <variable identifier="MAXSCORE_RESPONSE_2"/>
+                                        
+                </setOutcomeValue>
+                               
+            </responseIf>
+                      
+        </responseCondition>
+                  
+        <responseCondition>
+                           
+            <responseIf>
+                                    
+                <equal toleranceMode="exact">
+                                             
+                    <variable identifier="RESPONSE_3"/>
+                                             
+                    <correct identifier="RESPONSE_3"/>
+                                        
+                </equal>
+                                    
+                <setOutcomeValue identifier="SCORE_RESPONSE_3">
+                                             
+                    <variable identifier="MAXSCORE_RESPONSE_3"/>
+                                        
+                </setOutcomeValue>
+                               
+            </responseIf>
+                      
+        </responseCondition>
+                  
+        <responseCondition>
+                           
+            <responseIf>
+                                    
+                <equal toleranceMode="exact">
+                                             
+                    <variable identifier="RESPONSE_4"/>
+                                             
+                    <correct identifier="RESPONSE_4"/>
+                                        
+                </equal>
+                                    
+                <setOutcomeValue identifier="SCORE_RESPONSE_4">
+                                             
+                    <variable identifier="MAXSCORE_RESPONSE_4"/>
+                                        
+                </setOutcomeValue>
+                               
+            </responseIf>
+                      
+        </responseCondition>
+                  
+        <responseCondition>
+                           
+            <responseIf>
+                                    
+                <equal toleranceMode="exact">
+                                             
+                    <variable identifier="RESPONSE_5"/>
+                                             
+                    <correct identifier="RESPONSE_5"/>
+                                        
+                </equal>
+                                    
+                <setOutcomeValue identifier="SCORE_RESPONSE_5">
+                                             
+                    <variable identifier="MAXSCORE_RESPONSE_5"/>
+                                        
+                </setOutcomeValue>
+                               
+            </responseIf>
+                      
+        </responseCondition>
+                  
+        <responseCondition>
+                           
+            <responseIf>
+                                    
+                <equal toleranceMode="exact">
+                                             
+                    <variable identifier="RESPONSE_6"/>
+                                             
+                    <correct identifier="RESPONSE_6"/>
+                                        
+                </equal>
+                                    
+                <setOutcomeValue identifier="SCORE_RESPONSE_6">
+                                             
+                    <variable identifier="MAXSCORE_RESPONSE_6"/>
+                                        
+                </setOutcomeValue>
+                               
+            </responseIf>
+                      
+        </responseCondition>
+                  
+        <responseCondition>
+                           
+            <responseIf>
+                                    
+                <equal toleranceMode="exact">
+                                             
+                    <variable identifier="RESPONSE_7"/>
+                                             
+                    <correct identifier="RESPONSE_7"/>
+                                        
+                </equal>
+                                    
+                <setOutcomeValue identifier="SCORE_RESPONSE_7">
+                                             
+                    <variable identifier="MAXSCORE_RESPONSE_7"/>
+                                        
+                </setOutcomeValue>
+                               
+            </responseIf>
+                      
+        </responseCondition>
+                  
+        <setOutcomeValue identifier="SCORE">
+                           
+            <sum>
+                                    
+                <variable identifier="SCORE_RESPONSE_1"/>
+                                    
+                <variable identifier="SCORE_RESPONSE_2"/>
+                                    
+                <variable identifier="SCORE_RESPONSE_3"/>
+                                    
+                <variable identifier="SCORE_RESPONSE_4"/>
+                                    
+                <variable identifier="SCORE_RESPONSE_5"/>
+                                    
+                <variable identifier="SCORE_RESPONSE_6"/>
+                                    
+                <variable identifier="SCORE_RESPONSE_7"/>
+                               
+            </sum>
+                      
+        </setOutcomeValue>
+                  
+        <responseCondition>
+                           
+            <responseIf>
+                                    
+                <gt>
+                                             
+                    <variable identifier="SCORE"/>
+                                             
+                    <variable identifier="MAXSCORE"/>
+                                        
+                </gt>
+                                    
+                <setOutcomeValue identifier="SCORE">
+                                             
+                    <variable identifier="MAXSCORE"/>
+                                        
+                </setOutcomeValue>
+                               
+            </responseIf>
+                      
+        </responseCondition>
+                  
+        <responseCondition>
+                           
+            <responseIf>
+                                    
+                <lt>
+                                             
+                    <variable identifier="SCORE"/>
+                                             
+                    <variable identifier="MINSCORE"/>
+                                        
+                </lt>
+                                    
+                <setOutcomeValue identifier="SCORE">
+                                             
+                    <variable identifier="MINSCORE"/>
+                                        
+                </setOutcomeValue>
+                               
+            </responseIf>
+                      
+        </responseCondition>
+             
+    </responseProcessing>
+    
+</assessmentItem>

@@ -1,0 +1,176 @@
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" identifier="idTest4bcfe141_db43_490d_816a_7738542bef35_manifest" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/qtiv2p1_imscpv1p2_v1p0.xsd http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p1.xsd http://www.imsglobal.org/xsd/imsqti_metadata_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_metadata_v2p1p1.xsd http://ltsc.ieee.org/xsd/LOM http://www.imsglobal.org/xsd/imsmd_loose_v1p3p2.xsd http://www.w3.org/1998/Math/MathML http://www.w3.org/Math/XMLSchema/mathml2/mathml2.xsd">
+         
+    <metadata>
+                  
+        <schema>QTIv2.1 Package</schema>
+                  
+        <schemaversion>1.0.0</schemaversion>
+             
+    </metadata>
+         
+    <organizations/>
+         
+    <resources>
+                  
+        <resource href="TestSomeWhatInteressting.xml" identifier="TestSomeWhatInteressting" type="imsqti_test_xmlv2p1">
+                           
+            <metadata>
+                                    
+                <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+                                             
+                    <general>
+                                                      
+                        <identifier>
+                                                               
+                              
+                            <entry>TestSomeWhatInteressting</entry>
+                        </identifier>
+                                                      
+                        <title>
+                                                               
+                            <string language="de">Spannungsnulllinie</string>
+                                                          
+                        </title>
+                                                      
+                        <description>
+                                                               
+                            <string language="de"/>
+                                                          
+                        </description>
+                                                 
+                    </general>
+                                             
+                    <lifeCycle>
+                                                      
+                        <contribute>
+                                                               
+                            <date>
+                                                                        
+                                <dateTime>2021-05-17T22:27:21</dateTime>
+                                                                   
+                            </date>
+                                                               
+                            <role>
+                                                                        
+                                <source>LOMv1.0</source>
+                                                                        
+                                <value>author</value>
+                                                                   
+                            </role>
+                                                               
+                            <entity>BEGIN:VCARD&#13;
+VERSION:4.0&#13;
+N;LANGUAGE=de:Diepelt;Jochen;;;&#13;
+FN:Jochen Diepelt&#13;
+EMAIL:jochen.diepelt@mailbox.tu-dresden.de&#13;
+PRODID:ONYX Editor 9.10.0&#13;
+END:VCARD&#13;
+</entity>
+                                                          
+                        </contribute>
+                                                 
+                    </lifeCycle>
+                                             
+                    <educational>
+                                                      
+                        <learningResourceType>
+                                                               
+                            <source>QTIv2.1</source>
+                                                               
+                            <value>ExaminationTest</value>
+                                                          
+                        </learningResourceType>
+                                                 
+                    </educational>
+                                        
+                </lom>
+                               
+            </metadata>
+                           
+            <file href="TestSomeWhatInteressting.xml"/>
+                           
+            <file href="media/test_idTest4bcfe141-db43-490d-816a-7738542bef35_medium_7398550489058265539.png"/>
+                           
+            <file href="media/test_idTest4bcfe141-db43-490d-816a-7738542bef35_medium_3789927648079456075.png"/>
+                           
+            <dependency identifierref="aufgabe1"/>
+                           
+            <dependency identifierref="aufgabe3"/>
+                           
+            <file href="media/1.png"/>
+                           
+            <dependency identifierref="aufgabe5"/>
+                           
+            <file href="media/2.png"/>
+                           
+            <dependency identifierref="aufgabe6"/>
+                           
+            <file href="media/3.png"/>
+                           
+            <dependency identifierref="aufgabe2"/>
+                           
+            <file href="media/4.png"/>
+                           
+            <dependency identifierref="aufgabe4"/>
+                           
+            <file href="media/5.png"/>
+                           
+            <dependency identifierref="aufgabe7"/>
+                           
+            <file href="media/6.png"/>
+                           
+            <dependency identifierref="aufgabe8"/>
+                      
+        </resource>
+                  
+        <resource href="aufgabe1.xml" identifier="aufgabe1" type="imsqti_item_xmlv2p1">
+                           
+            <file href="aufgabe1.xml"/>
+                      
+        </resource>
+                  
+        <resource href="aufgabe3.xml" identifier="aufgabe3" type="imsqti_item_xmlv2p1">
+                           
+            <file href="aufgabe3.xml"/>
+                      
+        </resource>
+                  
+        <resource href="aufgabe5.xml" identifier="aufgabe5" type="imsqti_item_xmlv2p1">
+                           
+            <file href="aufgabe5.xml"/>
+                      
+        </resource>
+                  
+        <resource href="aufgabe6.xml" identifier="aufgabe6" type="imsqti_item_xmlv2p1">
+                           
+            <file href="aufgabe6.xml"/>
+                      
+        </resource>
+                  
+        <resource href="aufgabe2.xml" identifier="aufgabe2" type="imsqti_item_xmlv2p1">
+                           
+            <file href="aufgabe2.xml"/>
+                      
+        </resource>
+                  
+        <resource href="aufgabe4.xml" identifier="aufgabe4" type="imsqti_item_xmlv2p1">
+                           
+            <file href="aufgabe4.xml"/>
+                      
+        </resource>
+                  
+        <resource href="aufgabe7.xml" identifier="aufgabe7" type="imsqti_item_xmlv2p1">
+                           
+            <file href="aufgabe7.xml"/>
+                      
+        </resource>
+                  
+        <resource href="aufgabe8.xml" identifier="aufgabe8" type="imsqti_item_xmlv2p1">
+                           
+            <file href="aufgabe8.xml"/>
+                      
+        </resource>
+             
+    </resources>
+    
+</manifest>

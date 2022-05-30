@@ -1,0 +1,14 @@
+
+[[formula]]
+id = "MH"
+formula = '30 + {EINE} - {FORMEL}'
+
+[[formula]]
+id = "M_H"
+formula = '40 + {EINE} + {ANDERE} + {FORMEL}'
+
+[[formula]]
+id = "F_H"
+formula = '...'
+
+# und so weiter

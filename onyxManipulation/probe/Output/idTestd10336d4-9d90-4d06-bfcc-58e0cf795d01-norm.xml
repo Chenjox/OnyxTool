@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<assessmentTest xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" identifier="idTestd10336d4-9d90-4d06-bfcc-58e0cf795d01-norm" title="Beleg_Vorlage_1_POW" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p1.xsd">
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="SCORE">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MAXSCORE">
+          <defaultValue>
+               <value>28</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <outcomeDeclaration baseType="float" cardinality="single" identifier="MINSCORE">
+          <defaultValue>
+               <value>0</value>
+          </defaultValue>
+     </outcomeDeclaration>
+     <templateDeclaration baseType="float" cardinality="single" identifier="MATRIKEL"/>
+     <templateDeclaration baseType="integer" cardinality="single" identifier="KRYPTO_1"/>
+     <templateDeclaration baseType="integer" cardinality="single" identifier="KRYPTO_2"/>
+     <templateDeclaration baseType="integer" cardinality="single" identifier="KRYPTOZAHL"/>
+     <templateDeclaration baseType="integer" cardinality="single" identifier="OUTPUT"/>
+     <testPart identifier="id7b7e59b9-75a5-460c-958c-27a9ad9ddc5d" navigationMode="linear" submissionMode="individual">
+          <itemSessionControl allowComment="false" maxAttempts="1"/>
+          <assessmentSection fixed="false" identifier="ida8d1b9e7-2e5f-40a5-8ea9-28ef545d8792-norm" title="Matrikelnummer" visible="true">
+               <rubricBlock view="candidate"/>
+               <assessmentItemRef fixed="false" href="T-mod-4.xml" identifier="T-mod-4"/>
+          </assessmentSection>
+          <assessmentSection fixed="false" identifier="id16294d7c-2a58-480d-b9d0-8f4a56eb4d34-norm" title="Aufgaben" visible="true">
+               <rubricBlock view="candidate"/>
+               <assessmentItemRef fixed="false" href="Vorlage-1-mod-5.xml" identifier="Vorlage-1-mod-5"/>
+               <assessmentItemRef fixed="false" href="System-2-mod-3.xml" identifier="System-2-mod-3"/>
+               <assessmentItemRef fixed="false" href="System-1-mod-1.xml" identifier="System-1-mod-1"/>
+          </assessmentSection>
+     </testPart>
+     <outcomeProcessing>
+          <setOutcomeValue identifier="SCORE">
+               <sum>
+                    <testVariables variableIdentifier="SCORE"/>
+               </sum>
+          </setOutcomeValue>
+          <setTemplateValue identifier="MATRIKEL">
+               <variable identifier="idf2f60ed7-c9bd-486d-b6fa-eea1ace18945_1_1.idafbb6297-5010-405e-b530-5ee5a416de54"/>
+          </setTemplateValue>
+          <setTemplateValue identifier="KRYPTO_1">
+               <customOperator definition="MAXIMA" value="float($(1)-truncate($(1)/10000)*10000);">
+                    <variable identifier="MATRIKEL"/>
+               </customOperator>
+          </setTemplateValue>
+          <setTemplateValue identifier="KRYPTO_2">
+               <customOperator definition="MAXIMA" value="float($(1));">
+                    <variable identifier="MATRIKEL"/>
+               </customOperator>
+          </setTemplateValue>
+          <setTemplateValue identifier="KRYPTOZAHL">
+               <customOperator definition="MAXIMA" value="float(power_mod($(1), $(2), 86243));">
+                    <variable identifier="KRYPTO_1"/>
+                    <variable identifier="KRYPTO_2"/>
+               </customOperator>
+          </setTemplateValue>
+          <setTemplateValue identifier="OUTPUT">
+               <customOperator definition="MAXIMA" value="float(if is( equal($(2), 0) ) then ($(1)-truncate($(1)/1000)*1000) else ($(2)));">
+                    <variable identifier="MATRIKEL"/>
+                    <variable identifier="KRYPTOZAHL"/>
+               </customOperator>
+          </setTemplateValue>
+     </outcomeProcessing>
+</assessmentTest>

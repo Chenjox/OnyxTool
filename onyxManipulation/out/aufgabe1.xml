@@ -1,0 +1,102 @@
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" adaptive="false" identifier="aufgabe1" timeDependent="false" title="_" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p1.xsd http://www.w3.org/1998/Math/MathML http://www.w3.org/Math/XMLSchema/mathml2/mathml2.xsd">
+    <responseDeclaration baseType="float" cardinality="single" identifier="idafbb6297-5010-405e-b530-5ee5a416de54">
+        <correctResponse>
+            <value>5499999</value>
+        </correctResponse>
+    </responseDeclaration>
+    <outcomeDeclaration baseType="float" cardinality="single" identifier="SCORE_idafbb6297-5010-405e-b530-5ee5a416de54" view="testConstructor">
+        <defaultValue>
+            <value>0</value>
+        </defaultValue>
+    </outcomeDeclaration>
+    <outcomeDeclaration baseType="float" cardinality="single" identifier="MINSCORE_idafbb6297-5010-405e-b530-5ee5a416de54" view="testConstructor">
+        <defaultValue>
+            <value>0</value>
+        </defaultValue>
+    </outcomeDeclaration>
+    <outcomeDeclaration baseType="float" cardinality="single" identifier="MAXSCORE_idafbb6297-5010-405e-b530-5ee5a416de54" view="testConstructor">
+        <defaultValue>
+            <value>1</value>
+        </defaultValue>
+    </outcomeDeclaration>
+    <outcomeDeclaration baseType="float" cardinality="single" identifier="SCORE">
+        <defaultValue>
+            <value>0</value>
+        </defaultValue>
+    </outcomeDeclaration>
+    <outcomeDeclaration baseType="float" cardinality="single" identifier="MAXSCORE">
+        <defaultValue>
+            <value>1</value>
+        </defaultValue>
+    </outcomeDeclaration>
+    <outcomeDeclaration baseType="float" cardinality="single" identifier="MINSCORE" view="testConstructor">
+        <defaultValue>
+            <value>0</value>
+        </defaultValue>
+    </outcomeDeclaration>
+    <itemBody>
+        <p>
+            <p>
+                <p>
+                    <p>
+                        <p>
+                            <p>
+                                <p>Das Berechnen von Schnittgrößen wird nun an ein paar Systemen geübt und geprüft.</p>
+                                <p>
+                                    <span style="font-size: 10pt;">
+                                        <span style="font-size: 12pt;">Eingabe Ihrer Matrikelnummer:</span>
+                                    </span>
+                                     
+                                    <textEntryInteraction class="ctest_r" placeholderText="1234567" responseIdentifier="idafbb6297-5010-405e-b530-5ee5a416de54"/>
+                                </p>
+                                <p>
+                                    <span style="font-size: 8pt;">Die richtige Eingabe Ihrer Matrikelnummer wird erst nach Abgabe des Beleges überprüft. Achten Sie auf eine fehlerfreie Eingabe! Bei fehlerhafter Eingabe werden Ihnen online ausgewiesene Punkte nicht zugeordnet.</span>
+                                </p>
+                            </p>
+                        </p>
+                    </p>
+                </p>
+            </p>
+        </p>
+    </itemBody>
+    <responseProcessing>
+        <responseCondition>
+            <responseIf>
+                <equal includeLowerBound="true" includeUpperBound="true" tolerance="81.82 81.82" toleranceMode="relative">
+                    <variable identifier="idafbb6297-5010-405e-b530-5ee5a416de54"/>
+                    <correct identifier="idafbb6297-5010-405e-b530-5ee5a416de54"/>
+                </equal>
+                <setOutcomeValue identifier="SCORE_idafbb6297-5010-405e-b530-5ee5a416de54">
+                    <variable identifier="MAXSCORE_idafbb6297-5010-405e-b530-5ee5a416de54"/>
+                </setOutcomeValue>
+            </responseIf>
+        </responseCondition>
+        <setOutcomeValue identifier="SCORE">
+            <sum>
+                <variable identifier="SCORE_idafbb6297-5010-405e-b530-5ee5a416de54"/>
+            </sum>
+        </setOutcomeValue>
+        <responseCondition>
+            <responseIf>
+                <gt>
+                    <variable identifier="SCORE"/>
+                    <variable identifier="MAXSCORE"/>
+                </gt>
+                <setOutcomeValue identifier="SCORE">
+                    <variable identifier="MAXSCORE"/>
+                </setOutcomeValue>
+            </responseIf>
+        </responseCondition>
+        <responseCondition>
+            <responseIf>
+                <lt>
+                    <variable identifier="SCORE"/>
+                    <variable identifier="MINSCORE"/>
+                </lt>
+                <setOutcomeValue identifier="SCORE">
+                    <variable identifier="MINSCORE"/>
+                </setOutcomeValue>
+            </responseIf>
+        </responseCondition>
+    </responseProcessing>
+</assessmentItem>

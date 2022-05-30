@@ -1,0 +1,2616 @@
+
+[metadata]
+formulaVersion = "Something..."
+
+[formulaConfig]
+implicitType = "float"
+
+#Zeichnung1
+
+[[formula]]
+id = "C1_N1"
+formula = '1'
+
+[[formula]]
+id = "L1_N1"
+formula = '0'
+
+[[formula]]
+id = "R1_N1"
+formula = '0'
+
+[[formula]]
+id = "C1_Q1"
+formula = '2'
+
+[[formula]]
+id = "L1_Q1"
+formula = '{F}/2'
+
+[[formula]]
+id = "R1_Q1"
+formula = '{F}/2'
+
+[[formula]]
+id = "C1_M1"
+formula = '4'
+
+[[formula]]
+id = "L1_M1"
+formula = '0'
+
+[[formula]]
+id = "R1_M1"
+formula = '{F}*{L}/4'
+
+[[formula]]
+id = "C1_N2"
+formula = '1'
+
+[[formula]]
+id = "L1_N2"
+formula = '0'
+
+[[formula]]
+id = "R1_N2"
+formula = '0'
+
+[[formula]]
+id = "C1_Q2"
+formula = '2'
+
+[[formula]]
+id = "L1_Q2"
+formula = '-{F}/2'
+
+[[formula]]
+id = "R1_Q2"
+formula = '-{F}/2'
+
+[[formula]]
+id = "C1_M2"
+formula = '6'
+
+[[formula]]
+id = "L1_M2"
+formula = '{F}*{L}/4'
+
+[[formula]]
+id = "R1_M2"
+formula = '{F}*{L}/8'
+
+[[formula]]
+id = "C1_N3"
+formula = '1'
+
+[[formula]]
+id = "L1_N3"
+formula = '0'
+
+[[formula]]
+id = "R1_N3"
+formula = '0'
+
+[[formula]]
+id = "C1_Q3"
+formula = '2'
+
+[[formula]]
+id = "L1_Q3"
+formula = '-{F}/2'
+
+[[formula]]
+id = "R1_Q3"
+formula = '-{F}/2'
+
+[[formula]]
+id = "C1_M3"
+formula = '3'
+
+[[formula]]
+id = "L1_M3"
+formula = '{F}*{L}/8'
+
+[[formula]]
+id = "R1_M3"
+formula = '0'
+
+#Zeichnung2
+
+[[formula]]
+id = "C2_N1"
+formula = '1'
+
+[[formula]]
+id = "L2_N1"
+formula = '0'
+
+[[formula]]
+id = "R2_N1"
+formula = '0'
+
+[[formula]]
+id = "C2_Q1"
+formula = '2'
+
+[[formula]]
+id = "L2_Q1"
+formula = '{F}*3/4'
+
+[[formula]]
+id = "R2_Q1"
+formula = '{F}*3/4'
+
+[[formula]]
+id = "C2_M1"
+formula = '4'
+
+[[formula]]
+id = "L2_M1"
+formula = '0'
+
+[[formula]]
+id = "R2_M1"
+formula = '{F}*{L}*3/16'
+
+[[formula]]
+id = "C2_N2"
+formula = '1'
+
+[[formula]]
+id = "L2_N2"
+formula = '0'
+
+[[formula]]
+id = "R2_N2"
+formula = '0'
+
+[[formula]]
+id = "C2_Q2"
+formula = '2'
+
+[[formula]]
+id = "L2_Q2"
+formula = '-{F}/4'
+
+[[formula]]
+id = "R2_Q2"
+formula = '-{F}/4'
+
+[[formula]]
+id = "C2_M2"
+formula = '6'
+
+[[formula]]
+id = "L2_M2"
+formula = '{F}*{L}*3/16'
+
+[[formula]]
+id = "R2_M2"
+formula = '{F}*{L}/32'
+
+[[formula]]
+id = "C2_N3"
+formula = '1'
+
+[[formula]]
+id = "L2_N3"
+formula = '0'
+
+[[formula]]
+id = "R2_N3"
+formula = '0'
+
+[[formula]]
+id = "C2_Q3"
+formula = '2'
+
+[[formula]]
+id = "L2_Q3"
+formula = '-{F}/4'
+
+[[formula]]
+id = "R2_Q3"
+formula = '-{F}/4'
+
+[[formula]]
+id = "C2_M3"
+formula = '3'
+
+[[formula]]
+id = "L2_M3"
+formula = '{F}*{L}/32'
+
+[[formula]]
+id = "R2_M3"
+formula = '0'
+
+#Zeichnung3
+
+[[formula]]
+id = "C3_N1"
+formula = '1'
+
+[[formula]]
+id = "L3_N1"
+formula = '0'
+
+[[formula]]
+id = "R3_N1"
+formula = '0'
+
+[[formula]]
+id = "C3_Q1"
+formula = '2'
+
+[[formula]]
+id = "L3_Q1"
+formula = '{F}/3'
+
+[[formula]]
+id = "R3_Q1"
+formula = '{F}/3'
+
+[[formula]]
+id = "C3_M1"
+formula = '4'
+
+[[formula]]
+id = "L3_M1"
+formula = '0'
+
+[[formula]]
+id = "R3_M1"
+formula = '{F}*{L}/9'
+
+[[formula]]
+id = "C3_N2"
+formula = '1'
+
+[[formula]]
+id = "L3_N2"
+formula = '0'
+
+[[formula]]
+id = "R3_N2"
+formula = '0'
+
+[[formula]]
+id = "C3_Q2"
+formula = '2'
+
+[[formula]]
+id = "L3_Q2"
+formula = '{F}/3'
+
+[[formula]]
+id = "R3_Q2"
+formula = '{F}/3'
+
+[[formula]]
+id = "C3_M2"
+formula = '5'
+
+[[formula]]
+id = "L3_M2"
+formula = '{F}*{L}/9'
+
+[[formula]]
+id = "R3_M2"
+formula = '{F}*{L}*2/9'
+
+[[formula]]
+id = "C3_N3"
+formula = '1'
+
+[[formula]]
+id = "L3_N3"
+formula = '0'
+
+[[formula]]
+id = "R3_N3"
+formula = '0'
+
+[[formula]]
+id = "C3_Q3"
+formula = '2'
+
+[[formula]]
+id = "L3_Q3"
+formula = '-{F}*2/3'
+
+[[formula]]
+id = "R3_Q3"
+formula = '-{F}*2/3'
+
+[[formula]]
+id = "C3_M3"
+formula = '3'
+
+[[formula]]
+id = "L3_M3"
+formula = '{F}*{L}*2/9'
+
+[[formula]]
+id = "R3_M3"
+formula = '0'
+
+#Zeichnung4
+
+[[formula]]
+id = "C4_N1"
+formula = '1'
+
+[[formula]]
+id = "L4_N1"
+formula = '0'
+
+[[formula]]
+id = "R4_N1"
+formula = '0'
+
+[[formula]]
+id = "C4_Q1"
+formula = '2'
+
+[[formula]]
+id = "L4_Q1"
+formula = '{F}'
+
+[[formula]]
+id = "R4_Q1"
+formula = '{F}'
+
+[[formula]]
+id = "C4_M1"
+formula = '4'
+
+[[formula]]
+id = "L4_M1"
+formula = '0'
+
+[[formula]]
+id = "R4_M1"
+formula = '{F}*{L}/3'
+
+[[formula]]
+id = "C4_N2"
+formula = '1'
+
+[[formula]]
+id = "L4_N2"
+formula = '0'
+
+[[formula]]
+id = "R4_N2"
+formula = '0'
+
+[[formula]]
+id = "C4_Q2"
+formula = '1'
+
+[[formula]]
+id = "L4_Q2"
+formula = '0'
+
+[[formula]]
+id = "R4_Q2"
+formula = '0'
+
+[[formula]]
+id = "C4_M2"
+formula = '2'
+
+[[formula]]
+id = "L4_M2"
+formula = '{F}*{L}/3'
+
+[[formula]]
+id = "R4_M2"
+formula = '{F}*{L}/3'
+
+[[formula]]
+id = "C4_N3"
+formula = '1'
+
+[[formula]]
+id = "L4_N3"
+formula = '0'
+
+[[formula]]
+id = "R4_N3"
+formula = '0'
+
+[[formula]]
+id = "C4_Q3"
+formula = '2'
+
+[[formula]]
+id = "L4_Q3"
+formula = '-{F}'
+
+[[formula]]
+id = "R4_Q3"
+formula = '-{F}'
+
+[[formula]]
+id = "C4_M3"
+formula = '3'
+
+[[formula]]
+id = "L4_M3"
+formula = '{F}*{L}/3'
+
+[[formula]]
+id = "R4_M3"
+formula = '0'
+
+#Zeichnung5
+
+[[formula]]
+id = "C5_N1"
+formula = '1'
+
+[[formula]]
+id = "L5_N1"
+formula = '0'
+
+[[formula]]
+id = "R5_N1"
+formula = '0'
+
+[[formula]]
+id = "C5_Q1"
+formula = '2'
+
+[[formula]]
+id = "L5_Q1"
+formula = '{F}*2/3'
+
+[[formula]]
+id = "R5_Q1"
+formula = '{F}*2/3'
+
+[[formula]]
+id = "C5_M1"
+formula = '4'
+
+[[formula]]
+id = "L5_M1"
+formula = '0'
+
+[[formula]]
+id = "R5_M1"
+formula = '{F}*{L}*2/9'
+
+[[formula]]
+id = "C5_N2"
+formula = '1'
+
+[[formula]]
+id = "L5_N2"
+formula = '0'
+
+[[formula]]
+id = "R5_N2"
+formula = '0'
+
+[[formula]]
+id = "C5_Q2"
+formula = '2'
+
+[[formula]]
+id = "L5_Q2"
+formula = '{F}/3'
+
+[[formula]]
+id = "R5_Q2"
+formula = '{F}/3'
+
+[[formula]]
+id = "C5_M2"
+formula = '3'
+
+[[formula]]
+id = "L5_M2"
+formula = '{F}*{L}*2/9'
+
+[[formula]]
+id = "R5_M2"
+formula = '0'
+
+#Zeichnung6
+
+[[formula]]
+id = "C6_N1"
+formula = '1'
+
+[[formula]]
+id = "L6_N1"
+formula = '0'
+
+[[formula]]
+id = "R6_N1"
+formula = '0'
+
+[[formula]]
+id = "C6_Q1"
+formula = '2'
+
+[[formula]]
+id = "L6_Q1"
+formula = '{F}*3/8'
+
+[[formula]]
+id = "R6_Q1"
+formula = '{F}*3/8'
+
+[[formula]]
+id = "C6_M1"
+formula = '4'
+
+[[formula]]
+id = "L6_M1"
+formula = '0'
+
+[[formula]]
+id = "R6_M1"
+formula = '{F}*{L}*15/64'
+
+[[formula]]
+id = "C6_N2"
+formula = '1'
+
+[[formula]]
+id = "L6_N2"
+formula = '0'
+
+[[formula]]
+id = "R6_N2"
+formula = '0'
+
+[[formula]]
+id = "C6_Q2"
+formula = '2'
+
+[[formula]]
+id = "L6_Q2"
+formula = '-{F}*5/8'
+
+[[formula]]
+id = "R6_Q2"
+formula = '-{F}*5/8'
+
+[[formula]]
+id = "C6_M2"
+formula = '3'
+
+[[formula]]
+id = "L6_M2"
+formula = '{F}*{L}*15/64'
+
+[[formula]]
+id = "R6_M2"
+formula = '{F}*{L}*15/64'
+
+#Zeichnung7
+
+[[formula]]
+id = "C7_N1"
+formula = '2'
+
+[[formula]]
+id = "L7_N1"
+formula = '{F}'
+
+[[formula]]
+id = "R7_N1"
+formula = '{F}'
+
+[[formula]]
+id = "C7_Q1"
+formula = '2'
+
+[[formula]]
+id = "L7_Q1"
+formula = '{F}*4/7'
+
+[[formula]]
+id = "R7_Q1"
+formula = '{F}*4/7'
+
+[[formula]]
+id = "C7_M1"
+formula = '4'
+
+[[formula]]
+id = "L7_M1"
+formula = '0'
+
+[[formula]]
+id = "R7_M1"
+formula = '{F}*{L}*12/49'
+
+[[formula]]
+id = "C7_N2"
+formula = '2'
+
+[[formula]]
+id = "L7_N2"
+formula = '{F}'
+
+[[formula]]
+id = "R7_N2"
+formula = '{F}'
+
+[[formula]]
+id = "C7_Q2"
+formula = '2'
+
+[[formula]]
+id = "L7_Q2"
+formula = '-{F}*3/7'
+
+[[formula]]
+id = "R7_Q2"
+formula = '-{F}*3/7'
+
+[[formula]]
+id = "C7_M2"
+formula = '3'
+
+[[formula]]
+id = "L7_M2"
+formula = '{F}*{L}*12/49'
+
+[[formula]]
+id = "R7_M2"
+formula = '0'
+
+#Zeichnung8
+
+[[formula]]
+id = "C8_N1"
+formula = '1'
+
+[[formula]]
+id = "L8_N1"
+formula = '0'
+
+[[formula]]
+id = "R8_N1"
+formula = '0'
+
+[[formula]]
+id = "C8_Q1"
+formula = '2'
+
+[[formula]]
+id = "L8_Q1"
+formula = '-{M}/{L}'
+
+[[formula]]
+id = "R8_Q1"
+formula = '-{M}/{L}'
+
+[[formula]]
+id = "C8_M1"
+formula = '4'
+
+[[formula]]
+id = "L8_M1"
+formula = '0'
+
+[[formula]]
+id = "R8_M1"
+formula = '{M}/3'
+
+[[formula]]
+id = "C8_N2"
+formula = '1'
+
+[[formula]]
+id = "L8_N2"
+formula = '0'
+
+[[formula]]
+id = "R8_N2"
+formula = '0'
+
+[[formula]]
+id = "C8_Q2"
+formula = '2'
+
+[[formula]]
+id = "L8_Q2"
+formula = '-{M}/{L}'
+
+[[formula]]
+id = "R8_Q2"
+formula = '-{M}/{L}'
+
+[[formula]]
+id = "C8_M2"
+formula = '3'
+
+[[formula]]
+id = "L8_M2"
+formula = '{M}*2/3'
+
+[[formula]]
+id = "R8_M2"
+formula = '0'
+
+#Zeichnung9
+
+[[formula]]
+id = "C9_N1"
+formula = '1'
+
+[[formula]]
+id = "L9_N1"
+formula = '0'
+
+[[formula]]
+id = "R9_N1"
+formula = '0'
+
+[[formula]]
+id = "C9_Q1"
+formula = '3'
+
+[[formula]]
+id = "L9_Q1"
+formula = '{q}*{L}/2'
+
+[[formula]]
+id = "R9_Q1"
+formula = '0'
+
+[[formula]]
+id = "C9_M1"
+formula = '8'
+
+[[formula]]
+id = "L9_M1"
+formula = '0'
+
+[[formula]]
+id = "R9_M1"
+formula = '{q}*{L}^2/8'
+
+[[formula]]
+id = "C9_N2"
+formula = '1'
+
+[[formula]]
+id = "L9_N2"
+formula = '0'
+
+[[formula]]
+id = "R9_N2"
+formula = '0'
+
+[[formula]]
+id = "C9_Q2"
+formula = '4'
+
+[[formula]]
+id = "L9_Q2"
+formula = '0'
+
+[[formula]]
+id = "R9_Q2"
+formula = '-{q}*{L}/2'
+
+[[formula]]
+id = "C9_M2"
+formula = '7'
+
+[[formula]]
+id = "L9_M2"
+formula = '{q}*{L}^2/8'
+
+[[formula]]
+id = "R9_M2"
+formula = '0'
+
+#Zeichnung10
+
+[[formula]]
+id = "C10_N1"
+formula = '1'
+
+[[formula]]
+id = "L10_N1"
+formula = '0'
+
+[[formula]]
+id = "R10_N1"
+formula = '0'
+
+[[formula]]
+id = "C10_Q1"
+formula = '3'
+
+[[formula]]
+id = "L10_Q1"
+formula = '{q}*{L}/3'
+
+[[formula]]
+id = "R10_Q1"
+formula = '0'
+
+[[formula]]
+id = "C10_M1"
+formula = '8'
+
+[[formula]]
+id = "L10_M1"
+formula = '0'
+
+[[formula]]
+id = "R10_M1"
+formula = '{q}*{L}^2/18'
+
+[[formula]]
+id = "C10_N2"
+formula = '1'
+
+[[formula]]
+id = "L10_N2"
+formula = '0'
+
+[[formula]]
+id = "R10_N2"
+formula = '0'
+
+[[formula]]
+id = "C10_Q2"
+formula = '1'
+
+[[formula]]
+id = "L10_Q2"
+formula = '0'
+
+[[formula]]
+id = "R10_Q2"
+formula = '0'
+
+[[formula]]
+id = "C10_M2"
+formula = '2'
+
+[[formula]]
+id = "L10_M2"
+formula = '{q}*{L}^2/18'
+
+[[formula]]
+id = "R10_M2"
+formula = '{q}*{L}^2/18'
+
+[[formula]]
+id = "C10_N3"
+formula = '1'
+
+[[formula]]
+id = "L10_N3"
+formula = '0'
+
+[[formula]]
+id = "R10_N3"
+formula = '0'
+
+[[formula]]
+id = "C10_Q3"
+formula = '4'
+
+[[formula]]
+id = "L10_Q3"
+formula = '0'
+
+[[formula]]
+id = "R10_Q3"
+formula = '-{q}*{L}/3'
+
+[[formula]]
+id = "C10_M3"
+formula = '7'
+
+[[formula]]
+id = "L10_M3"
+formula = '{q}*{L}^2/18'
+
+[[formula]]
+id = "R10_M3"
+formula = '0'
+
+#Zeichnung11
+
+[[formula]]
+id = "C11_N1"
+formula = '1'
+
+[[formula]]
+id = "L11_N1"
+formula = '0'
+
+[[formula]]
+id = "R11_N1"
+formula = '0'
+
+[[formula]]
+id = "C11_Q1"
+formula = '1'
+
+[[formula]]
+id = "L11_Q1"
+formula = '0'
+
+[[formula]]
+id = "R11_Q1"
+formula = '0'
+
+[[formula]]
+id = "C11_M1"
+formula = '1'
+
+[[formula]]
+id = "L11_M1"
+formula = '0'
+
+[[formula]]
+id = "R11_M1"
+formula = '0'
+
+[[formula]]
+id = "C11_N2"
+formula = '1'
+
+[[formula]]
+id = "L11_N2"
+formula = '0'
+
+[[formula]]
+id = "R11_N2"
+formula = '0'
+
+[[formula]]
+id = "C11_Q2"
+formula = '2'
+
+[[formula]]
+id = "L11_Q2"
+formula = '{F}/3'
+
+[[formula]]
+id = "R11_Q2"
+formula = '{F}/3'
+
+[[formula]]
+id = "C11_M2"
+formula = '4'
+
+[[formula]]
+id = "L11_M2"
+formula = '0'
+
+[[formula]]
+id = "R11_M2"
+formula = '{F}*{L}/6'
+
+[[formula]]
+id = "C11_N3"
+formula = '1'
+
+[[formula]]
+id = "L11_N3"
+formula = '0'
+
+[[formula]]
+id = "R11_N3"
+formula = '0'
+
+[[formula]]
+id = "C11_Q3"
+formula = '2'
+
+[[formula]]
+id = "L11_Q3"
+formula = '-{F}*2/3'
+
+[[formula]]
+id = "R11_Q3"
+formula = '-{F}*2/3'
+
+[[formula]]
+id = "C11_M3"
+formula = '3'
+
+[[formula]]
+id = "L11_M3"
+formula = '{F}*{L}/6'
+
+[[formula]]
+id = "R11_M3"
+formula = '0'
+
+#Zeichnung12
+
+[[formula]]
+id = "C12_N1"
+formula = '1'
+
+[[formula]]
+id = "L12_N1"
+formula = '0'
+
+[[formula]]
+id = "R12_N1"
+formula = '0'
+
+[[formula]]
+id = "C12_Q1"
+formula = '1'
+
+[[formula]]
+id = "L12_Q1"
+formula = '0'
+
+[[formula]]
+id = "R12_Q1"
+formula = '0'
+
+[[formula]]
+id = "C12_M1"
+formula = '1'
+
+[[formula]]
+id = "L12_M1"
+formula = '0'
+
+[[formula]]
+id = "R12_M1"
+formula = '0'
+
+[[formula]]
+id = "C12_N2"
+formula = '2'
+
+[[formula]]
+id = "L12_N2"
+formula = '-{F}'
+
+[[formula]]
+id = "R12_N2"
+formula = '-{F}'
+
+[[formula]]
+id = "C12_Q2"
+formula = '1'
+
+[[formula]]
+id = "L12_Q2"
+formula = '0'
+
+[[formula]]
+id = "R12_Q2"
+formula = '0'
+
+[[formula]]
+id = "C12_M2"
+formula = '1'
+
+[[formula]]
+id = "L12_M2"
+formula = '0'
+
+[[formula]]
+id = "R12_M2"
+formula = '0'
+
+#Zeichnung13
+
+[[formula]]
+id = "C13_N1"
+formula = '1'
+
+[[formula]]
+id = "L13_N1"
+formula = '0'
+
+[[formula]]
+id = "R13_N1"
+formula = '0'
+
+[[formula]]
+id = "C13_Q1"
+formula = '2'
+
+[[formula]]
+id = "L13_Q1"
+formula = '{F}/2'
+
+[[formula]]
+id = "R13_Q1"
+formula = '{F}/2'
+
+[[formula]]
+id = "C13_M1"
+formula = '4'
+
+[[formula]]
+id = "L13_M1"
+formula = '0'
+
+[[formula]]
+id = "R13_M1"
+formula = '{F}*{L}/6'
+
+[[formula]]
+id = "C13_N2"
+formula = '1'
+
+[[formula]]
+id = "L13_N2"
+formula = '0'
+
+[[formula]]
+id = "R13_N2"
+formula = '0'
+
+[[formula]]
+id = "C13_Q2"
+formula = '2'
+
+[[formula]]
+id = "L13_Q2"
+formula = '-{F}/2'
+
+[[formula]]
+id = "R13_Q2"
+formula = '-{F}/2'
+
+[[formula]]
+id = "C13_M2"
+formula = '3'
+
+[[formula]]
+id = "L13_M2"
+formula = '{F}*{L}/6'
+
+[[formula]]
+id = "R13_M2"
+formula = '0'
+
+[[formula]]
+id = "C13_N3"
+formula = '1'
+
+[[formula]]
+id = "L13_N3"
+formula = '0'
+
+[[formula]]
+id = "R13_N3"
+formula = '0'
+
+[[formula]]
+id = "C13_Q3"
+formula = '1'
+
+[[formula]]
+id = "L13_Q3"
+formula = '0'
+
+[[formula]]
+id = "R13_Q3"
+formula = '0'
+
+[[formula]]
+id = "C13_M3"
+formula = '1'
+
+[[formula]]
+id = "L13_M3"
+formula = '0'
+
+[[formula]]
+id = "R13_M3"
+formula = '0'
+
+#Zeichnung14
+
+[[formula]]
+id = "C14_N1"
+formula = '1'
+
+[[formula]]
+id = "L14_N1"
+formula = '0'
+
+[[formula]]
+id = "R14_N1"
+formula = '0'
+
+[[formula]]
+id = "C14_Q1"
+formula = '2'
+
+[[formula]]
+id = "L14_Q1"
+formula = '-{F}/2'
+
+[[formula]]
+id = "R14_Q1"
+formula = '-{F}/2'
+
+[[formula]]
+id = "C14_M1"
+formula = '4'
+
+[[formula]]
+id = "L14_M1"
+formula = '0'
+
+[[formula]]
+id = "R14_M1"
+formula = '-{F}*{L}/4'
+
+[[formula]]
+id = "C14_N2"
+formula = '1'
+
+[[formula]]
+id = "L14_N2"
+formula = '0'
+
+[[formula]]
+id = "R14_N2"
+formula = '0'
+
+[[formula]]
+id = "C14_Q2"
+formula = '2'
+
+[[formula]]
+id = "L14_Q2"
+formula = '-{F}/2'
+
+[[formula]]
+id = "R14_Q2"
+formula = '-{F}/2'
+
+[[formula]]
+id = "C14_M2"
+formula = '5'
+
+[[formula]]
+id = "L14_M2"
+formula = '-{F}*{L}/4'
+
+[[formula]]
+id = "R14_M2"
+formula = '-{F}*{L}/3'
+
+[[formula]]
+id = "C14_N3"
+formula = '1'
+
+[[formula]]
+id = "L14_N3"
+formula = '0'
+
+[[formula]]
+id = "R14_N3"
+formula = '0'
+
+[[formula]]
+id = "C14_Q3"
+formula = '2'
+
+[[formula]]
+id = "L14_Q3"
+formula = '{F}'
+
+[[formula]]
+id = "R14_Q3"
+formula = '{F}'
+
+[[formula]]
+id = "C14_M3"
+formula = '3'
+
+[[formula]]
+id = "L14_M3"
+formula = '-{F}*{L}/3'
+
+[[formula]]
+id = "R14_M3"
+formula = '0'
+
+#Zeichnung15
+
+[[formula]]
+id = "C15_N1"
+formula = '1'
+
+[[formula]]
+id = "L15_N1"
+formula = '0'
+
+[[formula]]
+id = "R15_N1"
+formula = '0'
+
+[[formula]]
+id = "C15_Q1"
+formula = '1'
+
+[[formula]]
+id = "L15_Q1"
+formula = '0'
+
+[[formula]]
+id = "R15_Q1"
+formula = '0'
+
+[[formula]]
+id = "C15_M1"
+formula = '1'
+
+[[formula]]
+id = "L15_M1"
+formula = '0'
+
+[[formula]]
+id = "R15_M1"
+formula = '0'
+
+[[formula]]
+id = "C15_N2"
+formula = '1'
+
+[[formula]]
+id = "L15_N2"
+formula = '0'
+
+[[formula]]
+id = "R15_N2"
+formula = '0'
+
+[[formula]]
+id = "C15_Q2"
+formula = '2'
+
+[[formula]]
+id = "L15_Q2"
+formula = '-{F}'
+
+[[formula]]
+id = "R15_Q2"
+formula = '-{F}'
+
+[[formula]]
+id = "C15_M2"
+formula = '4'
+
+[[formula]]
+id = "L15_M2"
+formula = '0'
+
+[[formula]]
+id = "R15_M2"
+formula = '-{F}*{L}/3'
+
+[[formula]]
+id = "C15_N3"
+formula = '1'
+
+[[formula]]
+id = "L15_N3"
+formula = '0'
+
+[[formula]]
+id = "R15_N3"
+formula = '0'
+
+[[formula]]
+id = "C15_Q3"
+formula = '2'
+
+[[formula]]
+id = "L15_Q3"
+formula = '{F}'
+
+[[formula]]
+id = "R15_Q3"
+formula = '{F}'
+
+[[formula]]
+id = "C15_M3"
+formula = '3'
+
+[[formula]]
+id = "L15_M3"
+formula = '-{F}*{L}/3'
+
+[[formula]]
+id = "R15_M3"
+formula = '0'
+
+#Zeichnung16
+
+[[formula]]
+id = "C16_N1"
+formula = '1'
+
+[[formula]]
+id = "L16_N1"
+formula = '0'
+
+[[formula]]
+id = "R16_N1"
+formula = '0'
+
+[[formula]]
+id = "C16_Q1"
+formula = '1'
+
+[[formula]]
+id = "L16_Q1"
+formula = '0'
+
+[[formula]]
+id = "R16_Q1"
+formula = '0'
+
+[[formula]]
+id = "C16_M1"
+formula = '1'
+
+[[formula]]
+id = "L16_M1"
+formula = '0'
+
+[[formula]]
+id = "R16_M1"
+formula = '0'
+
+[[formula]]
+id = "C16_N2"
+formula = '1'
+
+[[formula]]
+id = "L16_N2"
+formula = '0'
+
+[[formula]]
+id = "R16_N2"
+formula = '0'
+
+[[formula]]
+id = "C16_Q2"
+formula = '2'
+
+[[formula]]
+id = "L16_Q2"
+formula = '-{F}'
+
+[[formula]]
+id = "R16_Q2"
+formula = '-{F}'
+
+[[formula]]
+id = "C16_M2"
+formula = '4'
+
+[[formula]]
+id = "L16_M2"
+formula = '0'
+
+[[formula]]
+id = "R16_M2"
+formula = '-{F}*{L}/4'
+
+[[formula]]
+id = "C16_N3"
+formula = '1'
+
+[[formula]]
+id = "L16_N3"
+formula = '0'
+
+[[formula]]
+id = "R16_N3"
+formula = '0'
+
+[[formula]]
+id = "C16_Q3"
+formula = '2'
+
+[[formula]]
+id = "L16_Q3"
+formula = '{F}/2'
+
+[[formula]]
+id = "R16_Q3"
+formula = '{F}/2'
+
+[[formula]]
+id = "C16_M3"
+formula = '3'
+
+[[formula]]
+id = "L16_M3"
+formula = '-{F}*{L}/4'
+
+[[formula]]
+id = "R16_M3"
+formula = '0'
+
+#Zeichnung17
+
+[[formula]]
+id = "C17_N1"
+formula = '2'
+
+[[formula]]
+id = "L17_N1"
+formula = '-{F}'
+
+[[formula]]
+id = "R17_N1"
+formula = '-{F}'
+
+[[formula]]
+id = "C17_Q1"
+formula = '2'
+
+[[formula]]
+id = "L17_Q1"
+formula = '{F}/2'
+
+[[formula]]
+id = "R17_Q1"
+formula = '{F}/2'
+
+[[formula]]
+id = "C17_M1"
+formula = '4'
+
+[[formula]]
+id = "L17_M1"
+formula = '0'
+
+[[formula]]
+id = "R17_M1"
+formula = '{F}*{L}/8'
+
+[[formula]]
+id = "C17_N2"
+formula = '2'
+
+[[formula]]
+id = "L17_N2"
+formula = '-{F}'
+
+[[formula]]
+id = "R17_N2"
+formula = '-{F}'
+
+[[formula]]
+id = "C17_Q2"
+formula = '2'
+
+[[formula]]
+id = "L17_Q2"
+formula = '-{F}/2'
+
+[[formula]]
+id = "R17_Q2"
+formula = '-{F}/2'
+
+[[formula]]
+id = "C17_M2"
+formula = '3'
+
+[[formula]]
+id = "L17_M2"
+formula = '{F}*{L}/8'
+
+[[formula]]
+id = "R17_M2"
+formula = '0'
+
+[[formula]]
+id = "C17_N3"
+formula = '1'
+
+[[formula]]
+id = "L17_N3"
+formula = '0'
+
+[[formula]]
+id = "R17_N3"
+formula = '0'
+
+[[formula]]
+id = "C17_Q3"
+formula = '1'
+
+[[formula]]
+id = "L17_Q3"
+formula = '0'
+
+[[formula]]
+id = "R17_Q3"
+formula = '0'
+
+[[formula]]
+id = "C17_M3"
+formula = '1'
+
+[[formula]]
+id = "L17_M3"
+formula = '0'
+
+[[formula]]
+id = "R17_M3"
+formula = '0'
+
+#Zeichnung18
+
+[[formula]]
+id = "C18_N1"
+formula = '1'
+
+[[formula]]
+id = "L18_N1"
+formula = '0'
+
+[[formula]]
+id = "R18_N1"
+formula = '0'
+
+[[formula]]
+id = "C18_Q1"
+formula = '2'
+
+[[formula]]
+id = "L18_Q1"
+formula = '-{M}/{L}*3/2'
+
+[[formula]]
+id = "R18_Q1"
+formula = '-{M}/{L}*3/2'
+
+[[formula]]
+id = "C18_M1"
+formula = '4'
+
+[[formula]]
+id = "L18_M1"
+formula = '0'
+
+[[formula]]
+id = "R18_M1"
+formula = '{M}/4'
+
+[[formula]]
+id = "C18_N2"
+formula = '1'
+
+[[formula]]
+id = "L18_N2"
+formula = '0'
+
+[[formula]]
+id = "R18_N2"
+formula = '0'
+
+[[formula]]
+id = "C18_Q2"
+formula = '2'
+
+[[formula]]
+id = "L18_Q2"
+formula = '-{M}/{L}*3/2'
+
+[[formula]]
+id = "R18_Q2"
+formula = '-{M}/{L}*3/2'
+
+[[formula]]
+id = "C18_M2"
+formula = '3'
+
+[[formula]]
+id = "L18_M2"
+formula = '{M}*3/4'
+
+[[formula]]
+id = "R18_M2"
+formula = '0'
+
+[[formula]]
+id = "C18_N3"
+formula = '1'
+
+[[formula]]
+id = "L18_N3"
+formula = '0'
+
+[[formula]]
+id = "R18_N3"
+formula = '0'
+
+[[formula]]
+id = "C18_Q3"
+formula = '1'
+
+[[formula]]
+id = "L18_Q3"
+formula = '0'
+
+[[formula]]
+id = "R18_Q3"
+formula = '0'
+
+[[formula]]
+id = "C18_M3"
+formula = '1'
+
+[[formula]]
+id = "L18_M3"
+formula = '0'
+
+[[formula]]
+id = "R18_M3"
+formula = '0'
+
+#Zeichnung19
+
+[[formula]]
+id = "C19_N1"
+formula = '1'
+
+[[formula]]
+id = "L19_N1"
+formula = '0'
+
+[[formula]]
+id = "R19_N1"
+formula = '0'
+
+[[formula]]
+id = "C19_Q1"
+formula = '4'
+
+[[formula]]
+id = "L19_Q1"
+formula = '0'
+
+[[formula]]
+id = "R19_Q1"
+formula = '-{q}*{L}/2'
+
+[[formula]]
+id = "C19_M1"
+formula = '10'
+
+[[formula]]
+id = "L19_M1"
+formula = '0'
+
+[[formula]]
+id = "R19_M1"
+formula = '-{q}*{L}^2/4'
+
+[[formula]]
+id = "C19_N2"
+formula = '1'
+
+[[formula]]
+id = "L19_N2"
+formula = '0'
+
+[[formula]]
+id = "R19_N2"
+formula = '0'
+
+[[formula]]
+id = "C19_Q2"
+formula = '3'
+
+[[formula]]
+id = "L19_Q2"
+formula = '{q}*{L}/2'
+
+[[formula]]
+id = "R19_Q2"
+formula = '0'
+
+[[formula]]
+id = "C19_M2"
+formula = '9'
+
+[[formula]]
+id = "L19_M2"
+formula = '-{q}*{L}^2/4'
+
+[[formula]]
+id = "R19_M2"
+formula = '0'
+
+#Zeichnung20
+
+[[formula]]
+id = "C20_N1"
+formula = '1'
+
+[[formula]]
+id = "L20_N1"
+formula = '0'
+
+[[formula]]
+id = "R20_N1"
+formula = '0'
+
+[[formula]]
+id = "C20_Q1"
+formula = '2'
+
+[[formula]]
+id = "L20_Q1"
+formula = '-{q}*{L}/12'
+
+[[formula]]
+id = "R20_Q1"
+formula = '-{q}*{L}/12'
+
+[[formula]]
+id = "C20_M1"
+formula = '4'
+
+[[formula]]
+id = "L20_M1"
+formula = '0'
+
+[[formula]]
+id = "R20_M1"
+formula = '-{q}*{L}^2/36'
+
+[[formula]]
+id = "C20_N2"
+formula = '1'
+
+[[formula]]
+id = "L20_N2"
+formula = '0'
+
+[[formula]]
+id = "R20_N2"
+formula = '0'
+
+[[formula]]
+id = "C20_Q2"
+formula = '2'
+
+[[formula]]
+id = "L20_Q2"
+formula = '-{q}*{L}/12'
+
+[[formula]]
+id = "R20_Q2"
+formula = '-{q}*{L}/12'
+
+[[formula]]
+id = "C20_M2"
+formula = '5'
+
+[[formula]]
+id = "L20_M2"
+formula = '-{q}*{L}^2/36'
+
+[[formula]]
+id = "R20_M2"
+formula = '-{q}*{L}^2/18'
+
+[[formula]]
+id = "C20_N3"
+formula = '1'
+
+[[formula]]
+id = "L20_N3"
+formula = '0'
+
+[[formula]]
+id = "R20_N3"
+formula = '0'
+
+[[formula]]
+id = "C20_Q3"
+formula = '3'
+
+[[formula]]
+id = "L20_Q3"
+formula = '{q}*{L}/3'
+
+[[formula]]
+id = "R20_Q3"
+formula = '0'
+
+[[formula]]
+id = "C20_M3"
+formula = '9'
+
+[[formula]]
+id = "L20_M3"
+formula = '-{q}*{L}^2/18'
+
+[[formula]]
+id = "R20_M3"
+formula = '0'
+
+#Zeichnung21
+
+[[formula]]
+id = "C21_N1"
+formula = '1'
+
+[[formula]]
+id = "L21_N1"
+formula = '0'
+
+[[formula]]
+id = "R21_N1"
+formula = '0'
+
+[[formula]]
+id = "C21_Q1"
+formula = '2'
+
+[[formula]]
+id = "L21_Q1"
+formula = '-{F}'
+
+[[formula]]
+id = "R21_Q1"
+formula = '-{F}'
+
+[[formula]]
+id = "C21_M1"
+formula = '6'
+
+[[formula]]
+id = "L21_M1"
+formula = '{F}*{L}*3/2'
+
+[[formula]]
+id = "R21_M1"
+formula = '{F}*{L}'
+
+[[formula]]
+id = "C21_N2"
+formula = '1'
+
+[[formula]]
+id = "L21_N2"
+formula = '0'
+
+[[formula]]
+id = "R21_N2"
+formula = '0'
+
+[[formula]]
+id = "C21_Q2"
+formula = '2'
+
+[[formula]]
+id = "L21_Q2"
+formula = '-2*{F}'
+
+[[formula]]
+id = "R21_Q2"
+formula = '-2*{F}'
+
+[[formula]]
+id = "C21_M2"
+formula = '3'
+
+[[formula]]
+id = "L21_M2"
+formula = '{F}*{L}'
+
+[[formula]]
+id = "R21_M2"
+formula = '0'
+
+#Zeichnung22
+
+[[formula]]
+id = "C22_N1"
+formula = '2'
+
+[[formula]]
+id = "L22_N1"
+formula = '{F}'
+
+[[formula]]
+id = "R22_N1"
+formula = '{F}'
+
+[[formula]]
+id = "C22_Q1"
+formula = '1'
+
+[[formula]]
+id = "L22_Q1"
+formula = '0'
+
+[[formula]]
+id = "R22_Q1"
+formula = '0'
+
+[[formula]]
+id = "C22_M1"
+formula = '1'
+
+[[formula]]
+id = "L22_M1"
+formula = '0'
+
+[[formula]]
+id = "R22_M1"
+formula = '0'
+
+[[formula]]
+id = "C22_N2"
+formula = '2'
+
+[[formula]]
+id = "L22_N2"
+formula = '{F}'
+
+[[formula]]
+id = "R22_N2"
+formula = '{F}'
+
+[[formula]]
+id = "C22_Q2"
+formula = '2'
+
+[[formula]]
+id = "L22_Q2"
+formula = '-{F}'
+
+[[formula]]
+id = "R22_Q2"
+formula = '-{F}'
+
+[[formula]]
+id = "C22_M2"
+formula = '4'
+
+[[formula]]
+id = "L22_M2"
+formula = '0'
+
+[[formula]]
+id = "R22_M2"
+formula = '-{F}*{L}*2/3'
+
+#Zeichnung23
+
+[[formula]]
+id = "C23_N1"
+formula = '1'
+
+[[formula]]
+id = "L23_N1"
+formula = '0'
+
+[[formula]]
+id = "R23_N1"
+formula = '0'
+
+[[formula]]
+id = "C23_Q1"
+formula = '1'
+
+[[formula]]
+id = "L23_Q1"
+formula = '0'
+
+[[formula]]
+id = "R23_Q1"
+formula = '0'
+
+[[formula]]
+id = "C23_M1"
+formula = '1'
+
+[[formula]]
+id = "L23_M1"
+formula = '0'
+
+[[formula]]
+id = "R23_M1"
+formula = '0'
+
+[[formula]]
+id = "C23_N2"
+formula = '1'
+
+[[formula]]
+id = "L23_N2"
+formula = '0'
+
+[[formula]]
+id = "R23_N2"
+formula = '0'
+
+[[formula]]
+id = "C23_Q2"
+formula = '2'
+
+[[formula]]
+id = "L23_Q2"
+formula = '-{F}'
+
+[[formula]]
+id = "R23_Q2"
+formula = '-{F}'
+
+[[formula]]
+id = "C23_M2"
+formula = '4'
+
+[[formula]]
+id = "L23_M2"
+formula = '0'
+
+[[formula]]
+id = "R23_M2"
+formula = '-{F}*{L}/3'
+
+[[formula]]
+id = "C23_N3"
+formula = '1'
+
+[[formula]]
+id = "L23_N3"
+formula = '0'
+
+[[formula]]
+id = "R23_N3"
+formula = '0'
+
+[[formula]]
+id = "C23_Q3"
+formula = '2'
+
+[[formula]]
+id = "L23_Q3"
+formula = '-{F}*3'
+
+[[formula]]
+id = "R23_Q3"
+formula = '-{F}*3'
+
+[[formula]]
+id = "C23_M3"
+formula = '5'
+
+[[formula]]
+id = "L23_M3"
+formula = '-{F}*{L}/3'
+
+[[formula]]
+id = "R23_M3"
+formula = '-{F}*{L}*4/3'
+
+#Zeichnung24
+
+[[formula]]
+id = "C24_N1"
+formula = '2'
+
+[[formula]]
+id = "L24_N1"
+formula = '-{F}'
+
+[[formula]]
+id = "R24_N1"
+formula = '-{F}'
+
+[[formula]]
+id = "C24_Q1"
+formula = '2'
+
+[[formula]]
+id = "L24_Q1"
+formula = '{F}'
+
+[[formula]]
+id = "R24_Q1"
+formula = '{F}'
+
+[[formula]]
+id = "C24_M1"
+formula = '3'
+
+[[formula]]
+id = "L24_M1"
+formula = '{F}*{L}/4'
+
+[[formula]]
+id = "R24_M1"
+formula = '0'
+
+[[formula]]
+id = "C24_N2"
+formula = '2'
+
+[[formula]]
+id = "L24_N2"
+formula = '-{F}'
+
+[[formula]]
+id = "R24_N2"
+formula = '-{F}'
+
+[[formula]]
+id = "C24_Q2"
+formula = '1'
+
+[[formula]]
+id = "L24_Q2"
+formula = '0'
+
+[[formula]]
+id = "R24_Q2"
+formula = '0'
+
+[[formula]]
+id = "C24_M2"
+formula = '1'
+
+[[formula]]
+id = "L24_M2"
+formula = '0'
+
+[[formula]]
+id = "R24_M2"
+formula = '0'
+
+[[formula]]
+id = "C24_N3"
+formula = '2'
+
+[[formula]]
+id = "L24_N3"
+formula = '-{F}'
+
+[[formula]]
+id = "R24_N3"
+formula = '-{F}'
+
+[[formula]]
+id = "C24_Q3"
+formula = '1'
+
+[[formula]]
+id = "L24_Q3"
+formula = '0'
+
+[[formula]]
+id = "R24_Q3"
+formula = '0'
+
+[[formula]]
+id = "C24_M3"
+formula = '1'
+
+[[formula]]
+id = "L24_M3"
+formula = '0'
+
+[[formula]]
+id = "R24_M3"
+formula = '0'
+
+#Zeichnung25
+
+[[formula]]
+id = "C25_N1"
+formula = '1'
+
+[[formula]]
+id = "L25_N1"
+formula = '0'
+
+[[formula]]
+id = "R25_N1"
+formula = '0'
+
+[[formula]]
+id = "C25_Q1"
+formula = '1'
+
+[[formula]]
+id = "L25_Q1"
+formula = '0'
+
+[[formula]]
+id = "R25_Q1"
+formula = '0'
+
+[[formula]]
+id = "C25_M1"
+formula = '1'
+
+[[formula]]
+id = "L25_M1"
+formula = '0'
+
+[[formula]]
+id = "R25_M1"
+formula = '0'
+
+[[formula]]
+id = "C25_N2"
+formula = '1'
+
+[[formula]]
+id = "L25_N2"
+formula = '0'
+
+[[formula]]
+id = "R25_N2"
+formula = '0'
+
+[[formula]]
+id = "C25_Q2"
+formula = '1'
+
+[[formula]]
+id = "L25_Q2"
+formula = '0'
+
+[[formula]]
+id = "R25_Q2"
+formula = '0'
+
+[[formula]]
+id = "C25_M2"
+formula = '2'
+
+[[formula]]
+id = "L25_M2"
+formula = '{M}'
+
+[[formula]]
+id = "R25_M2"
+formula = '{M}'
+
+[[formula]]
+id = "C25_N3"
+formula = '1'
+
+[[formula]]
+id = "L25_N3"
+formula = '0'
+
+[[formula]]
+id = "R25_N3"
+formula = '0'
+
+[[formula]]
+id = "C25_Q3"
+formula = '1'
+
+[[formula]]
+id = "L25_Q3"
+formula = '0'
+
+[[formula]]
+id = "R25_Q3"
+formula = '0'
+
+[[formula]]
+id = "C25_M3"
+formula = '2'
+
+[[formula]]
+id = "L25_M3"
+formula = '{M}'
+
+[[formula]]
+id = "R25_M3"
+formula = '{M}'
+
+#Zeichnung26
+
+[[formula]]
+id = "C26_N1"
+formula = '1'
+
+[[formula]]
+id = "L26_N1"
+formula = '0'
+
+[[formula]]
+id = "R26_N1"
+formula = '0'
+
+[[formula]]
+id = "C26_Q1"
+formula = '1'
+
+[[formula]]
+id = "L26_Q1"
+formula = '0'
+
+[[formula]]
+id = "R26_Q1"
+formula = '0'
+
+[[formula]]
+id = "C26_M1"
+formula = '1'
+
+[[formula]]
+id = "L26_M1"
+formula = '0'
+
+[[formula]]
+id = "R26_M1"
+formula = '0'
+
+[[formula]]
+id = "C26_N2"
+formula = '1'
+
+[[formula]]
+id = "L26_N2"
+formula = '0'
+
+[[formula]]
+id = "R26_N2"
+formula = '0'
+
+[[formula]]
+id = "C26_Q2"
+formula = '2'
+
+[[formula]]
+id = "L26_Q2"
+formula = '-{q}*{L}/2'
+
+[[formula]]
+id = "R26_Q2"
+formula = '-{q}*{L}/2'
+
+[[formula]]
+id = "C26_M2"
+formula = '4'
+
+[[formula]]
+id = "L26_M2"
+formula = '0'
+
+[[formula]]
+id = "R26_M2"
+formula = '-{q}*{L}^2/8'
+
+#Zeichnung27
+
+[[formula]]
+id = "C27_N1"
+formula = '1'
+
+[[formula]]
+id = "L27_N1"
+formula = '0'
+
+[[formula]]
+id = "R27_N1"
+formula = '0'
+
+[[formula]]
+id = "C27_Q1"
+formula = '2'
+
+[[formula]]
+id = "L27_Q1"
+formula = '{q}*{L}/3'
+
+[[formula]]
+id = "R27_Q1"
+formula = '{q}*{L}/3'
+
+[[formula]]
+id = "C27_M1"
+formula = '6'
+
+[[formula]]
+id = "L27_M1"
+formula = '{q}*{L}^2*5/18'
+
+[[formula]]
+id = "R27_M1"
+formula = '{q}*{L}^2/6'
+
+[[formula]]
+id = "C27_N2"
+formula = '1'
+
+[[formula]]
+id = "L27_N2"
+formula = '0'
+
+[[formula]]
+id = "R27_N2"
+formula = '0'
+
+[[formula]]
+id = "C27_Q2"
+formula = '2'
+
+[[formula]]
+id = "L27_Q2"
+formula = '{q}*{L}/3'
+
+[[formula]]
+id = "R27_Q2"
+formula = '{q}*{L}/3'
+
+[[formula]]
+id = "C27_M2"
+formula = '6'
+
+[[formula]]
+id = "L27_M2"
+formula = '{q}*{L}^2/6'
+
+[[formula]]
+id = "R27_M2"
+formula = '{q}*{L}^2/18'
+
+[[formula]]
+id = "C27_N3"
+formula = '1'
+
+[[formula]]
+id = "L27_N3"
+formula = '0'
+
+[[formula]]
+id = "R27_N3"
+formula = '0'
+
+[[formula]]
+id = "C27_Q3"
+formula = '3'
+
+[[formula]]
+id = "L27_Q3"
+formula = '{q}*{L}/3'
+
+[[formula]]
+id = "R27_Q3"
+formula = '0'
+
+[[formula]]
+id = "C27_M3"
+formula = '9'
+
+[[formula]]
+id = "L27_M3"
+formula = '{q}*{L}^2/18'
+
+[[formula]]
+id = "R27_M3"
+formula = '0'

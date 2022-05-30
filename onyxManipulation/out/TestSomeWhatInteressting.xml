@@ -1,0 +1,85 @@
+<assessmentTest xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" identifier="TestSomeWhatInteressting" title="meineTestung" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p1.xsd">
+         
+    <outcomeDeclaration baseType="float" cardinality="single" identifier="SCORE">
+                  
+        <defaultValue>
+                           
+            <value>0</value>
+                      
+        </defaultValue>
+             
+    </outcomeDeclaration>
+         
+    <outcomeDeclaration baseType="float" cardinality="single" identifier="MAXSCORE">
+                  
+        <defaultValue>
+                           
+            <value>8</value>
+                      
+        </defaultValue>
+             
+    </outcomeDeclaration>
+         
+    <outcomeDeclaration baseType="float" cardinality="single" identifier="MINSCORE">
+                  
+        <defaultValue>
+                           
+            <value>0</value>
+                      
+        </defaultValue>
+             
+    </outcomeDeclaration>
+         
+    <testPart identifier="id44156553-c031-4fcb-a625-54c46c56eab6" navigationMode="nonlinear" submissionMode="individual">
+                  
+        <itemSessionControl allowComment="false" maxAttempts="1"/>
+                  
+        <assessmentSection fixed="false" identifier="id9e83b26e-a150-48a1-a0f4-d079bdc136df-norm" title="Matrikelnummer" visible="true">
+                           
+            <rubricBlock view="candidate"/>
+                           
+            <assessmentItemRef fixed="false" href="aufgabe1.xml" identifier="aufgabe1"/>
+                      
+        </assessmentSection>
+                  
+        <assessmentSection fixed="false" identifier="idfe2dd336-05a4-4a41-b1cd-b0608fb4e104-norm" title="Aufgaben" visible="true">
+                           
+            <rubricBlock view="candidate">
+                                    
+                <p>Archetyp</p>
+                               
+            </rubricBlock>
+                           
+            <assessmentItemRef fixed="false" href="aufgabe3.xml" identifier="aufgabe3"/>
+                           
+            <assessmentItemRef fixed="false" href="aufgabe5.xml" identifier="aufgabe5"/>
+                           
+            <assessmentItemRef fixed="false" href="aufgabe6.xml" identifier="aufgabe6"/>
+                           
+            <assessmentItemRef fixed="false" href="aufgabe2.xml" identifier="aufgabe2"/>
+                           
+            <assessmentItemRef fixed="false" href="aufgabe4.xml" identifier="aufgabe4"/>
+                           
+            <assessmentItemRef fixed="false" href="aufgabe7.xml" identifier="aufgabe7"/>
+                           
+            <assessmentItemRef fixed="false" href="aufgabe8.xml" identifier="aufgabe8"/>
+                      
+        </assessmentSection>
+             
+    </testPart>
+         
+    <outcomeProcessing>
+                  
+        <setOutcomeValue identifier="SCORE">
+                           
+            <sum>
+                                    
+                <testVariables variableIdentifier="SCORE"/>
+                               
+            </sum>
+                      
+        </setOutcomeValue>
+             
+    </outcomeProcessing>
+    
+</assessmentTest>
