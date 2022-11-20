@@ -69,6 +69,13 @@ class ItemAddJob(
                         newTemplateIdentifier = pre.newId
                     ))
                 }
+                is SwitchSetting -> {
+                    queues.itemChangeQueue.push(SwitchVariableJob(
+                        itemFilter = filter,
+                        templateIdentifier1 = it.id,
+                        templateIdentifier2 = pre.switchId
+                    ))
+                }
             }
         }
         queues.itemChangeQueue.push(ItemTitleChangeJob(filter, assessment.title))

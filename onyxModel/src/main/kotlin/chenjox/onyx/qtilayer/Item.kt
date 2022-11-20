@@ -56,6 +56,10 @@ public class Item(
         assessmentItem.setBaseType(templateIdentifier, newBaseType)
     }
 
+    public fun getBaseTypeFor(templateIdentifier: String): BaseType{
+        return assessmentItem.getBaseType(templateIdentifier)
+    }
+
     public fun setImgReference(newRef: String, filter: (ImgRef) -> Boolean){
         assessmentItem.itemBody.images.filter(filter).forEach {
             it.source = newRef

@@ -80,6 +80,17 @@ public class AssessmentItem(
         }
     }
 
+    public fun getBaseType(templateIdentifier: String): BaseType{
+        val template = _templates.firstOrNull {
+            it.identifier == templateIdentifier
+        }
+        if(template != null){
+            return template.baseType
+        }else{
+            throw IllegalArgumentException("No template '$templateIdentifier' found!")
+        }
+    }
+
     public fun normalizeIdentifiers(){
         identifier = "${identifier.replace('_','-')}-norm"
     }
@@ -120,10 +131,14 @@ public class AssessmentItem(
         }
     }
 
+    public fun deleteTemplateNode(identifier: String){
+
+    }
+
     public fun deepClone() : AssessmentItem {
         return AssessmentItemBuilder(document.deepCopy()).build()
     }
-    //TODO Variablen Insertion und so, Reihenfolge der Variablen
+    //TODO Variablen Insertion und so
     //TODO Custom Operator
     //TODO HTML Scanner
 

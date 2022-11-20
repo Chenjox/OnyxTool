@@ -14,10 +14,15 @@ data class VarPreprocessing(
     include = JsonTypeInfo.As.WRAPPER_OBJECT
 )
 @JsonSubTypes(
-    JsonSubTypes.Type(name = "name", value = RenameSetting::class)
+    JsonSubTypes.Type(name = "name", value = RenameSetting::class),
+    JsonSubTypes.Type(name = "switch", value = SwitchSetting::class)
 )
 sealed class PreprocessorSetting
 
 data class RenameSetting (
     @JsonProperty("to") val newId: String
 ): PreprocessorSetting()
+
+data class SwitchSetting (
+    @JsonProperty("to") val switchId: String
+    ): PreprocessorSetting()
