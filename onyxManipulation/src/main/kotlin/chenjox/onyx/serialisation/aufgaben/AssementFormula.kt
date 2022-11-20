@@ -35,7 +35,7 @@ data class RoundModifier(val places: Int) : FormulaModifier() {
 
     override fun String.applyModifier(): String {
         val num = "1".padEnd(places+1,'0')
-        return "block([wert], wert: $this, (signum(wert)*truncate(wert)*$num + 0.5)/$num)" // FIXME q=signum({q_roh})*truncate(abs({q_roh})*10000+0.5)/10000
+        return "block([wert], wert: $this, (signum(wert)*truncate(wert)*$num + 0.5)/$num)"
     }
 
 }
