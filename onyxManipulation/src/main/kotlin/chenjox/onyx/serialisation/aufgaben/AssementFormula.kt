@@ -35,7 +35,7 @@ data class RoundModifier(val places: Int) : FormulaModifier() {
 
     override fun String.applyModifier(): String {
         val num = "1".padEnd(places+1,'0')
-        return "block([wert], wert: $this, (signum(wert)*truncate(wert)*$num + 0.5)/$num)"
+        return "block([wert], wert: $this, (signum(wert)*truncate(abs(wert)*$num + 0.5)/$num)"
     }
 
 }
